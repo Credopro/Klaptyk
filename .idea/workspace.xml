@@ -52,18 +52,18 @@
     <session id="-1456609203">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="133" />
+          <entry key="html" value="137" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="133" />
+          <entry key="HTML" value="137" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open" />
@@ -81,11 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-              <folding>
-                <marker date="1539543047754" expanded="true" signature="2124:2752" ph="..." />
-              </folding>
+            <state relative-caret-position="92">
+              <caret line="280" column="12" lean-forward="true" selection-start-line="280" selection-start-column="12" selection-end-line="280" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -214,11 +211,12 @@
       <workItem from="1539523524320" duration="1135000" />
       <workItem from="1539524762032" duration="1012000" />
       <workItem from="1539540808551" duration="2292000" />
+      <workItem from="1539544926358" duration="68000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4439000" />
+    <option name="totallyTimeSpent" value="4507000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -252,11 +250,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-          <folding>
-            <marker date="1539543047754" expanded="true" signature="2124:2752" ph="..." />
-          </folding>
+        <state relative-caret-position="92">
+          <caret line="280" column="12" lean-forward="true" selection-start-line="280" selection-start-column="12" selection-end-line="280" selection-end-column="12" />
         </state>
       </provider>
     </entry>
