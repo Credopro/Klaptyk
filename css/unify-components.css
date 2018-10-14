@@ -2869,13 +2869,13 @@ body[class*="u-body--header-side"].u-body--header-side-opened .u-header__overlay
 
 /* Button Primary */
 .u-btn-primary {
-  color: #FFFFF0;
+  color: #F4F2C1;
   background-color: #372018;
 }
 
 .u-btn-primary:hover, .u-btn-primary.active {
-  border-color: #FFFFF0;
-  background-color: #FFFFF0;
+  border-color: #372018;
+  background-color: #F4F2C1;
 }
 
 .u-btn-primary:hover, .u-btn-primary:focus, .u-btn-primary.active {
@@ -2884,8 +2884,8 @@ body[class*="u-body--header-side"].u-body--header-side-opened .u-header__overlay
 }
 
 .u-btn-primary.g-btn-hover-reset:hover, .u-btn-primary.g-btn-hover-reset.active {
-  background-color: #FFFFF0;
-  border-color: #FFFFF0;
+  background-color: #F4F2C1;
+  border-color: #372018;
 }
 
 .u-btn-primary.u-btn-hover-v1-1 {

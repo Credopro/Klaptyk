@@ -1,7 +1,5 @@
-body {
-    background-color: #FFFFF0;
-}
 
-h2,p {
+.border-for-section{
+    background-color: #F4F2C1;
     color: #372018;
 }
