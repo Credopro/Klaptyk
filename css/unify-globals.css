@@ -3043,15 +3043,15 @@
 
 /* Color Yellow */
 .g-brd-yellow {
-  border-color: #ebc71d !important;
+  border-color: #F4F2C1!important;
 }
 
 .g-brd-yellow--hover:hover, .g-brd-yellow--active.active {
-  border-color: #ebc71d !important;
+  border-color: #F4F2C1 !important;
 }
 
 *:hover > .g-brd-yellow--hover-parent {
-  border-color: #ebc71d !important;
+  border-color: #F4F2C1 !important;
 }
 
 /* Color Aqua */
