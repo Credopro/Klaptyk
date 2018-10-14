@@ -2870,21 +2870,22 @@ body[class*="u-body--header-side"].u-body--header-side-opened .u-header__overlay
 /* Button Primary */
 .u-btn-primary {
   color: #FFFFF0;
-  background-color: #B57919;
+  background-color: #372018;
 }
 
 .u-btn-primary:hover, .u-btn-primary.active {
-  border-color: #FAE731;
-  background-color: #B57919;
+  border-color: #FFFFF0;
+  background-color: #FFFFF0;
 }
 
 .u-btn-primary:hover, .u-btn-primary:focus, .u-btn-primary.active {
-  color: #FFFFF0;
+  color: #372018;
+  font-weight: bold;
 }
 
 .u-btn-primary.g-btn-hover-reset:hover, .u-btn-primary.g-btn-hover-reset.active {
-  background-color: #FFF999;
-  border-color: #FFF999;
+  background-color: #FFFFF0;
+  border-color: #FFFFF0;
 }
 
 .u-btn-primary.u-btn-hover-v1-1 {
