@@ -9,12 +9,9 @@ footer.page-footer {
 }
 
 /* *** Contact *** */
-.aaa{
-    color:green;
-}
 .envelope{
     background-color: #F4F5EF;
-    box-shadow: -2px 2px 2px #aaa;
+    box-shadow: -3px 3px 3px 1px #aaa;
     font-size: 1.2em;
     max-width: 1000px;
 }
@@ -23,7 +20,7 @@ footer.page-footer {
     color: #F4F2C1;
     margin: 0 -15px 10px -15px;
     padding: 5px 10px;
-    box-shadow: -2px 2px 2px #aaa;
+    box-shadow: -2px 3px 3px 1px #aaa;
 }
 .post-stamp img{
   width:30%;
@@ -64,7 +61,7 @@ footer.page-footer {
         max-width:700px;
         height:350px;
         margin-bottom: 30px;
-        box-shadow: -2px 2px 2px #aaa;
+        box-shadow: -3px 3px 3px 1px #aaa;
     }
     .map iframe{
         width: 100%; 
