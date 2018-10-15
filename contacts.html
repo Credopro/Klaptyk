@@ -40,7 +40,7 @@
 
       <!-- Links -->
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="index.html">Головна
             <span class="sr-only">(current)</span>
           </a>
@@ -58,7 +58,7 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Дитяча кімната</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="contacts.html">Контакти</a>
         </li>
 
@@ -71,11 +71,9 @@
             <!--<a class="dropdown-item" href="#">Another action</a>-->
             <!--<a class="dropdown-item" href="#">Something else here</a>-->
           <!--</div>-->
-        </li>
-
+        <!--</li>-->
       </ul>
       <!-- Links -->
-
       <form class="form-inline">
         <div class="md-form my-0">
           <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
@@ -83,73 +81,46 @@
       </form>
     </div>
     <!-- Collapsible content -->
-
   </nav>
-  <!--/.Navbar-->
-
-  <!--Coworking Sasha Pazyuk -->
-  <!--Courses Volodya Dzyoba-->
-  <!--Gallery Dima Khomin-->
-  <!--Children's room Volodya Gundyak-->
-
-  <section class="g-pt-100 g-pb-100 border-for-section">
+  <div class="contacts_main g-pt-100 border-for-section">
     <div class="container">
-      <div class="row d-flex align-items-lg-center flex-wrap g-mb-60 g-mb-0--lg animated slideInLeft">
-        <div class="col-md-6 col-lg-8">
-          <img class="img-fluid rounded" src="img/gallery/Сourses/courses2.jpg" alt="Courses">
+      <div class="row mb-5 envelope">
+        <div class="col-sm-6"> 
+          <p class="title_before_form ">Напишіть нам</p>
+          <form method="post">
+            <input class="feedback" type="text" name="name" placeholder="Ваше ім'я">
+            <input class="feedback" type="email" name="email" placeholder="Електронна пошта">
+            <input class="feedback" type="phone" name="name" placeholder="Номер телефону">
+            <label for="mess" class="feedback">Ваше повідомлення:</label>
+            <textarea id="mess" class="feedback" name="message" rows="5"></textarea>
+            <p class="send_mess text-right ">
+              <input class="g-rounded-50 g-brd-white" type="submit" value="надіслати">
+            </p>
+          </form>
         </div>
-        <div class="col-md-4 col-lg-4">
-          <div class="g-mt-minus-10 g-mt-0--md g-ml-minus-20--lg">
-            <div class="g-mb-20">
-              <h2 class="g-font-weight-600 g-font-size-25 g-font-size-35--lg g-line-height-1_2 mb-4 g-pt-30">Курси
-              </h2>
-              <p class="g-font-size-16">This is where we sit down, grab a cup of coffee and dial in the
-                details. Understanding the task at hand and ironing out the wrinkles is key.</p>
-            </div>
-            <a class="btn u-btn-primary g-brd-2 g-brd-white g-font-size-13 g-rounded-50 g-pl-20 g-pr-15 g-py-9 waves-effect waves-light"
-              href="#!">
-              More products
-              <span class="align-middle u-icon-v3 g-width-16 g-height-16 g-color-black g-brd-yellow g-font-size-11 rounded-circle ml-3">
-                <i class="fa fa-angle-right"></i>
-              </span>
-            </a>
+        <div class="col-sm-6 mb-3 text-right">
+            <p class="post-stamp d-none d-sm-block"><img src="img\contacts\stamp.png" alt=""></p>
+            <p class="our-contact">Наші контакти</p>
+            <p class="feedback"> м. Івано-Франківськ</p>
+            <p class="feedback"> вул. Левка Бачинського 1 (4 поверх)</p>
+            <p class="feedback"> домофон № 13</p>
+            <p class="feedback"> info@gmail.com</p>
+            <p class="feedback"> + 01 234 567 88</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="map-block col-12"> 
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d779.4524467119396!2d24.707137347766206!3d48.9200585107703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4730c114d0cc74bb%3A0x7add479bb193ff48!2z0LLRg9C70LjRhtGPINCb0LXQstC60LAg0JHQsNGH0LjQvdGB0YzQutC-0LPQviwgMSwg0IbQstCw0L3Qvi3QpNGA0LDQvdC60ZbQstGB0YzQuiwg0IbQstCw0L3Qvi3QpNGA0LDQvdC60ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3NjAwMA!5e0!3m2!1suk!2sua!4v1539636258398" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="container">
-      <div class="row d-flex justify-content-between align-items-lg-center flex-wrap g-mt-minus-50--lg animated slideInRight">
-        <div class="col-md-6 order-md-2">
-          <div class="g-brd-around--md g-brd-10 g-brd-yellow rounded">
-            <img class="img-fluid w-100 rounded" src="img/gallery/Сourses/courses.jpg" alt="Fashion School">
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 ml-auto order-md-1">
-          <div class="g-mt-minus-10 g-mt-0--md g-ml-minus-100--lg">
-            <div class="g-mb-20">
-              <h2 class="g-font-weight-600 g-font-size-25 g-font-size-35--lg g-line-height-1_2 mb-4 g-pt-50">Модна
-                Школа
-              </h2>
-              <p class="g-font-size-16">Модна школа №1 у Івано-Франківську запрошує охочих на модне навчання :)
-                Пропонуємо заглибитись у світ моди та прослухати базовий курс “Моделювання одягу”.</p>
-            </div>
-            <a class="btn u-btn-primary g-brd-2 g-brd-white g-font-size-13 g-rounded-50 g-pl-20 g-pr-15 g-py-9 waves-effect waves-light"
-              href="#!">
-              Read More
-              <span class="align-middle u-icon-v3 g-width-16 g-height-16 g-color-black g-brd-yellow g-font-size-11 rounded-circle ml-3">
-                <i class="fa fa-angle-right"></i>
-              </span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
 </div>
-  <!--End Courses and Coworking-->
 
-  <!-- Footer -->
   <!-- Footer -->
   <footer class="page-footer font-small  pt-4">
 
