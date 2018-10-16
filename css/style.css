@@ -10,7 +10,7 @@ footer.page-footer {
 
 /* *** Contact *** */
 .envelope{
-    background-color: #F4F5EF;
+    background-color: rgba(244, 245, 239, 0.3);
     box-shadow: -3px 3px 3px 1px #aaa;
     font-size: 1.2em;
     max-width: 1000px;
@@ -26,45 +26,46 @@ footer.page-footer {
   width:30%;
   margin: 10px 0 20% 0;
 }
+.feedback{
+  border: none;
+  border-bottom: 1px dotted #000;
+  color: #372018;
+  width:100%;
+  background-color: inherit;
+  margin: 0;
+}
+p.feedback {
+  float: right;
+}
+.send_mess input {
+  margin-top:10px;
+  cursor: pointer;
+  color: #F4F2C1;
+  background: #372018;
+  border: none;
+}
+.send_mess input:hover {
+  color: #372018;
+  background: #F4F2C1;
+  box-shadow: 0 0 5px 2px #aaa;
+}
+@media screen and (min-width: 992px), screen and (max-width: 576px)and (min-width: 426px){
   .feedback{
-    border: none;
-    border-bottom: 1px dotted #000;
-    color: #372018;
-    width:100%;
-    background-color: inherit;
-    margin: 0;
-  }
-  p.feedback {
-    float: right;
-  }
+      width: 80%;
+    }
   .send_mess input {
-    margin-top:10px;
-    cursor: pointer;
-    color: #F4F2C1;
-    background: #372018;
-    border: none;
+    margin-right:20%;
   }
-  .send_mess input:hover {
-    color: #372018;
-    background: #F4F2C1;
   }
-  @media screen and (min-width: 992px), screen and (max-width: 576px)and (min-width: 426px){
-    .feedback{
-        width: 80%;
-      }
-    .send_mess input {
-      margin-right:20%;
-    }
-    }
-    .map{
-        border: 6px solid #F4F5EF;
-        max-width:700px;
-        height:350px;
-        margin-bottom: 30px;
-        box-shadow: -3px 3px 3px 1px #aaa;
-    }
-    .map iframe{
-        width: 100%; 
-        height: 100%;
-    }
+  .map{
+      border: 6px solid rgba(244, 245, 239, 0.3);;
+      max-width:700px;
+      height:350px;
+      margin-bottom: 30px;
+      box-shadow: -3px 3px 3px 1px #aaa;
+  }
+  .map iframe{
+      width: 100%; 
+      height: 100%;
+  }
 /* *** End contact *** */
