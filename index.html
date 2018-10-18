@@ -184,7 +184,7 @@
               <form method="post" name="cont_form" onsubmit="return required()">
                 <input class="feedback" type="text" name="name" placeholder="Ваше ім'я">
                 <input class="feedback" type="email" name="email" placeholder="Електронна пошта">
-                <input class="feedback" type="phone" name="phone" placeholder="Номер телефону">
+                <input class="feedback" type="phone" name="phone" pattern="^[-0-9]+$" placeholder="Номер телефону">
                 <label for="mess" class="feedback">Ваше повідомлення:</label>
                 <textarea id="mess" class="feedback" name="message" rows="5"></textarea>
                 <button type="submit" class="g-rounded-50 send_mess float-right">
