@@ -10,63 +10,64 @@ footer.page-footer {
 }
 
 /* *** Contact *** */
+.contacts_main{
+  font-size: 1.2em;
+}
 .envelope{
-    background-color: rgba(244, 245, 239, 0.3);
-    box-shadow: -3px 3px 3px 1px #aaa;
-    font-size: 1.2em;
-    max-width: 1000px;
+  box-shadow: 0px 0px 3px 2px #aaa;
+  max-width: 1000px;
+  padding: 0;
 }
 .title_before_form, .our-contact{
-    background-color: #372018;
-    color: #F4F2C1;
-    margin: 0 -15px 10px -15px;
-    padding: 5px 10px;
-    box-shadow: -2px 3px 3px 1px #aaa;
-}
-.post-stamp img{
-  width:30%;
-  margin: 10px 0 20% 0;
+  margin: 0 0 20px 0;
+  padding: 5px 10px;
+  box-shadow: -1px 2px 1px #aaa;
+  font-size: 1.78571rem;
+  font-weight: 600;
 }
 .feedback{
   border: none;
   border-bottom: 1px dotted #000;
   color: #372018;
-  width:100%;
+  width:96%;
+  overflow: hidden;
+  padding: 0 5px 0 0;
   background-color: inherit;
-  margin: 0;
+  margin: 0 2% ;
+  font-size: 1.14286rem;
 }
 p.feedback {
   float: right;
 }
-.send_mess input {
-  margin-top:10px;
+form .feedback{
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+form .feedback:focus{
+  background-color: rgba(57, 34, 2, 0.1);
+  transition: background 0.5s ease-out;
+}
+.send_mess{
+  margin:10px 2%;
+  padding: 0.64286rem 1.42857rem;
   cursor: pointer;
   color: #F4F2C1;
   background: #372018;
   border: none;
+  font-size: 0.92857rem;
+  transition: all .2s ease-in-out;
+  text-transform: uppercase;
 }
-.send_mess input:hover {
+.send_mess:hover {
   color: #372018;
   background: #F4F2C1;
-  box-shadow: 0 0 5px 2px #aaa;
+  box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
 }
-@media screen and (min-width: 992px), screen and (max-width: 576px)and (min-width: 426px){
-  .feedback{
-      width: 80%;
-    }
-  .send_mess input {
-    margin-right:20%;
-  }
-  }
-  .map{
-      border: 6px solid rgba(244, 245, 239, 0.3);;
-      max-width:700px;
-      height:350px;
-      margin-bottom: 30px;
-      box-shadow: -3px 3px 3px 1px #aaa;
-  }
-  .map iframe{
-      width: 100%; 
-      height: 100%;
+.map{
+  height: 400px;
+}
+.map iframe{
+  width: 100%; 
+  height: 100%;
   }
 /* *** End contact *** */
