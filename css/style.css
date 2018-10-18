@@ -16,12 +16,13 @@ footer.page-footer {
   box-shadow: 0px 0px 3px 2px #aaa;
   max-width: 1000px;
   padding: 0;
-
 }
 .title_before_form, .our-contact{
   margin: 0 0 20px 0;
   padding: 5px 10px;
   box-shadow: -1px 2px 1px #aaa;
+  font-size: 1.78571rem;
+  font-weight: 600;
 }
 .feedback{
   border: none;
@@ -32,6 +33,7 @@ footer.page-footer {
   padding: 0 5px 0 0;
   background-color: inherit;
   margin: 0 2% ;
+  font-size: 1.14286rem;
 }
 p.feedback {
   float: right;
