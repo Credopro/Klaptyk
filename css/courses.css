@@ -2,7 +2,7 @@ html, body, #intro {
     height: 100%;
     background-color: #FFFFF0;
     color: #372018;
-     background: url(../img/gallery/Сourses/back_courses.jpg) no-repeat center center fixed;
+     background: url(../img/gallery/Сourses/back_courses.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -18,6 +18,8 @@ div.card {
 div.card-deck {
     justify-content: space-around;
 }
-#intro {
-    color: #F4F2C1;
+.ibtrobgr {
+    color: #372018;
+    border: 1px solid #FFFFF0;
+    background-color: #FFFFF0;
 }
