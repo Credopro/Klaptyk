@@ -1,0 +1,15 @@
+html, body, #intro {
+    height: 100%;
+    background-color: #FFFFF0;
+    color: #372018;
+}
+
+#intro {
+    background: url(../img/gallery/Сourses/back_courses.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+hr.hline{
+    border: 2px solid #372018;
+}
