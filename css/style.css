@@ -2,6 +2,9 @@
 .border-for-section{
     background-color: #FFFFF0;
     color: #372018;
+    border: 2px solid #372018;
+    margin: 5%;
+
 }
 
 footer.page-footer {
@@ -92,3 +95,4 @@ form .feedback:focus{
 }
 #text {
   margin-left: 110px;
+}
