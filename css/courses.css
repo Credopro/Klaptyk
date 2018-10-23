@@ -23,4 +23,7 @@ div.plans {
     background-color: #FFFFF0;
     
 }
-
+ul.menu-for-footer {
+    list-style: none;
+    flex-direction: row;
+}
