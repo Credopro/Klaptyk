@@ -24,3 +24,7 @@ footer.page-footer a {
     padding: 20px 15px 10px 15px;
 
 }
+
+p.text-size,li {
+    font-weight: 400;
+}
