@@ -13,17 +13,7 @@ div.card {
     padding: 10px;
 }
 
-.introbgr {
+.introbgr, div.plans {
     border: 1px solid #372018;
     background-color: #FFFFF0;
-}
-
-div.plans {
-    border: 1px solid #372018;
-    background-color: #FFFFF0;
-    
-}
-ul.menu-for-footer {
-    list-style: none;
-    flex-direction: row;
 }
