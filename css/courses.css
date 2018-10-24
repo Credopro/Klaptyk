@@ -13,14 +13,18 @@ div.card {
     padding: 10px;
 }
 
-.introbgr {
+.introbgr, div.plans {
     border: 1px solid #372018;
     background-color: #FFFFF0;
 }
 
-div.plans {
-    border: 1px solid #372018;
-    background-color: #FFFFF0;
-    
+
+footer.page-footer a {
+    color: #F4F2C1;
+    padding: 20px 15px 10px 15px;
+
 }
 
+p.text-size,li {
+    font-weight: 400;
+}
