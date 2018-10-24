@@ -1,4 +1,48 @@
+:root {
+	--main-brown-color: #372018;
+
+	--main-yellow-color: #FCE43A;
+
+	--main-ivory-color: #FFFFF0;
+
+}
+
+
+/*heder nav Yaroslav*/
+
+/*header*/
+header{
+	color: var(--main-brown-color);
+	background: url(../img/bg/bg2.png) no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+}
+
+.head{
+	padding: 20px 5% 5%;
+}
+
+.row{
+	background-color: rgba(255, 255, 240, 0.9);
+	padding: 10px 10px;
+}
+
+.logo{
+	height: 120px;
+}
+
+a{
+	color: #372018;
+	font-weight: 600;
+}
+a:hover{
+	color: #ffa000;
+}
+
 /*navbar*/
+
+/*/navbar*/
+/* / heder nav Yaroslav*/
 
 
 
@@ -6,6 +50,9 @@
 .border-for-section{
     background-color: #FFFFF0;
     color: #372018;
+    border: 2px solid #372018;
+    margin: 5%;
+
 }
 
 footer.page-footer {
@@ -75,3 +122,25 @@ form .feedback:focus{
   height: 100%;
   }
 /* *** End contact *** */
+#DR1{
+  text-align:center;
+  line-height: 50px;
+  font-weight:bolder;
+  font-size:30px;
+}
+#DR2{
+   text-align:center;
+   font-weight:bolder;
+   font-size:20px;
+ }
+#DR3{
+  text-align:center;
+  font-size:20px;
+}
+#pic {
+  float: left;
+
+}
+#text {
+  margin-left: 110px;
+}
