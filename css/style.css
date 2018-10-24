@@ -4,7 +4,7 @@
 	--main-yellow-color: #FCE43A;
 
 	--main-ivory-color: #FFFFF0;
-
+  /*color: var(--main-brown-color);*/
 }
 
 
@@ -32,7 +32,7 @@ header{
 }
 
 a{
-	color: #372018;
+	color: var(--main-brown-color);
 	font-weight: 600;
 }
 a:hover{
