@@ -2,7 +2,7 @@ html, body, #intro {
     height: 100%;
     background-color: #FFFFF0;
     color: #372018;
-     background: url(../img/gallery/Сourses/back_courses.png) no-repeat center center fixed;
+     /*background: url(../img/gallery/Сourses/back_courses.png) no-repeat center center fixed;*/
     -webkit-background-size: cover;
     background-size: cover;
 }
