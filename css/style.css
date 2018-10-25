@@ -22,7 +22,7 @@ header{
 	padding: 20px 5% 5%;
 }
 
-.row{
+.translucent{
 	background-color: rgba(255, 255, 240, 0.9);
 	padding: 10px 10px;
 }
@@ -42,21 +42,23 @@ a:hover{
 /*navbar*/
 
 /*/navbar*/
+
+
 /* / heder nav Yaroslav*/
 
 
 
 /*section courses */
 .border-for-section{
-    background-color: #FFFFF0;
-    color: #372018;
-    border: 2px solid #372018;
+    background-color: var(--main-ivory-color);
+    color: var(--main-brown-color);
+    border: 2px solid var(--main-brown-color);
     margin: 5%;
 
 }
 
 footer.page-footer {
-    background-color: #372018;
+    background-color: var(--main-brown-color);
     color: #F4F2C1;
 }
 
@@ -79,7 +81,7 @@ footer.page-footer {
 .feedback{
   border: none;
   border-bottom: 1px dotted #000;
-  color: #372018;
+  color: var(--main-brown-color);
   width:96%;
   overflow: hidden;
   padding: 0 5px 0 0;
@@ -103,14 +105,14 @@ form .feedback:focus{
   padding: 0.64286rem 1.42857rem;
   cursor: pointer;
   color: #F4F2C1;
-  background: #372018;
+  background: var(--main-brown-color);
   border: none;
   font-size: 0.92857rem;
   transition: all .2s ease-in-out;
   text-transform: uppercase;
 }
 .send_mess:hover {
-  color: #372018;
+  color: var(--main-brown-color);
   background: #F4F2C1;
   box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
 }

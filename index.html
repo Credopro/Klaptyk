@@ -1,218 +1,268 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Klaptyk</title>
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
-  <link href="css/mdb.min.css" rel="stylesheet">
-  <!-- Your custom styles (optional) -->
-  <link href="css/style.css" rel="stylesheet">
-  <!-- Styles for buttons and dual images -->
-  <link href="css/unify-components.css" rel="stylesheet">
-  <link href="css/unify-globals.css" rel="stylesheet">
-  <link href="css/courses.css" rel="stylesheet">
-  <link rel="import" href="header.html"> <!--імпорт header.html  -->
-  <script type="text/javascript" src="js/constants.js"></script> <!--чому підключено тут -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Klaptyk</title>
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Material Design Bootstrap -->
+	<link href="css/mdb.min.css" rel="stylesheet">
+	<!-- Your custom styles (optional) -->
+	<link href="css/style.css" rel="stylesheet">
+	<!-- Styles for buttons and dual images -->
+	<link href="css/unify-components.css" rel="stylesheet">
+	<link href="css/unify-globals.css" rel="stylesheet">
+	<link href="css/courses.css" rel="stylesheet">
+	<link rel="import" href="header.html"> <!--імпорт header.html  -->
+	<link rel="import2" href="about.html">
+	<script type="text/javascript" src="js/constants.js"></script> <!--чому підключено тут -->
 </head>
 
 <body>
 
-    <!--header nav Yaroslav-->
-    <script>
-			var link = document.querySelector('link[rel=import]');
-			var content = link.import.querySelector('#head'); /*ваш ID*/
-			document.body.appendChild(content.cloneNode(true));
-    </script>
-    <!--/header nav Yaroslav -->
+<!--header nav Yaroslav-->
+<script>
+	var link = document.querySelector('link[rel=import]');
+	var content = link.import.querySelector('#head');
+	/*ваш ID*/
+	document.body.appendChild(content.cloneNode(true));
+</script>
+<!--about-us-->
+<!--<script>-->
+<!--var link = document.querySelector('link[rel=import2]');-->
+<!--var content = link.import.querySelector('#about'); /*ваш ID*/-->
+<!--document.body.appendChild(content.cloneNode(true));-->
+<!--</script>-->
+<section id="about" class="g-pt-100 g-pb-100 border-for-section ">
+	<div class="container">
+		<div class="row d-flex align-items-center flex-wrap g-mb-60 g-mb-0--lg">
+
+			<h2 class="g-font-weight-600 g-font-size-25 g-font-size-35--lg g-line-height-1_2 mb-4 g-pt-30">
+				Клаптик
+			</h2>
+			<p>
+				— це затишний простір для творчих людей, які прагнуть розвиватися та пізнавати нове, прагнуть
+				працювати над собою та творити. Ми чи не щодня проводимо різноманітні майстер-класи для дорослих і дітей,
+				цікаві зустрічі та презентації.<br>
+
+				Разом з вами малюємо, проектуємо, створюємо модні дизайни, в’яжемо та весело проводимо час. Долучайтеся до нашої
+				дружньої творчої сім’ї.
+			</p>
+			<div class="row d-flex align-items-center flex-wrap">
+				<div class="col-md-4">
+					<ul>
+						<li>затишний та комфортний інтер’єр;</li>
+						<li>привітне ставлення;</li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<ul>
+						<li>удовий та дружній колектив;</li>
+						<li>проведення майстер-класів;</li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<ul>
+						<li>можливість орендувати майстерню для проведення майстер-класу</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section><!--/about-us-->
+<!--/about-us-->
+
+<!--/header nav Yaroslav -->
 
 
-  <!--Coworking Sasha Pazyuk -->
+<!--Coworking Sasha Pazyuk -->
 
-    <!--/Coworking Sasha Pazyuk -->
-  <!--Courses Volodya Dzyoba-->
+<!--/Coworking Sasha Pazyuk -->
+<!--Courses Volodya Dzyoba-->
 
-  <section class="g-pt-100 g-pb-100 border-for-section">
-    <div class="container" id="courses">
-      <div class="row d-flex align-items-center flex-wrap g-mb-60 g-mb-0--lg">
-        <div class="col-md-6 col-lg-8">
-          <div class="g-brd-around g-brd-5 g-brd-brown rounded">
-            <img class="img-fluid rounded" src="img/gallery/courses/courses2.jpg" alt="Courses">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-4">
-          <div class="g-mt-minus-10 g-mt-0--md g-ml-minus-20--lg">
-            <div class="g-mb-20">
-              <h2 class="g-font-weight-600 g-font-size-25 g-font-size-35--lg g-line-height-1_2 mb-4 g-pt-30">Курси
-              </h2>
-              <p class="g-font-size-16">В наш час модно бути собою та вирізнятись індивідуальністю. Модна
-                школа - школа для тих, хто творить
-                свою моду сам. <br>
-                Ми розробили корисні курси, які допоможуть вам заглибитись у світ моди та створити свій
-                модний образ самостійно.</p>
-            </div>
-            <a class="btn u-btn-primary g-brd-2 g-brd-white g-font-size-13 g-rounded-50 g-pl-20 g-pr-15 g-py-9 waves-effect waves-light"
-              href="courses.html">
-              Більше тут
-              <span class="align-middle u-icon-v3 g-width-16 g-height-16 g-color-black g-brd-yellow g-font-size-11 rounded-circle ml-3">
+<section class="g-pt-100 g-pb-100 border-for-section">
+	<div class="container" id="courses">
+		<div class="row d-flex align-items-center flex-wrap g-mb-60 g-mb-0--lg">
+			<div class="col-md-6 col-lg-8">
+				<div class="g-brd-around g-brd-5 g-brd-brown rounded">
+					<img class="img-fluid rounded" src="img/gallery/courses/courses2.jpg" alt="Courses">
+				</div>
+			</div>
+			<div class="col-md-4 col-lg-4">
+				<div class="g-mt-minus-10 g-mt-0--md g-ml-minus-20--lg">
+					<div class="g-mb-20">
+						<h2 class="g-font-weight-600 g-font-size-25 g-font-size-35--lg g-line-height-1_2 mb-4 g-pt-30">Курси
+						</h2>
+						<p class="g-font-size-16">В наш час модно бути собою та вирізнятись індивідуальністю. Модна
+							школа - школа для тих, хто творить
+							свою моду сам. <br>
+							Ми розробили корисні курси, які допоможуть вам заглибитись у світ моди та створити свій
+							модний образ самостійно.</p>
+					</div>
+					<a class="btn u-btn-primary g-brd-2 g-brd-white g-font-size-13 g-rounded-50 g-pl-20 g-pr-15 g-py-9 waves-effect waves-light"
+						 href="courses.html">
+						Більше тут
+						<span
+								class="align-middle u-icon-v3 g-width-16 g-height-16 g-color-black g-brd-yellow g-font-size-11 rounded-circle ml-3">
                 <i class="fa fa-angle-right"></i>
               </span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <div class="container">
-      <div class="row d-flex justify-content-between align-items-center flex-wrap g-mt-minus-50--lg">
-        <div class="col-md-6 order-md-2">
-          <div class="g-brd-around g-brd-5 g-brd-brown rounded">
-            <img class="img-fluid w-100 rounded" src="img/gallery/courses/courses.jpg" alt="Fashion School">
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 ml-auto order-md-1">
-          <div class="g-mt-minus-10 g-mt-0--md g-ml-minus-100--lg">
-            <div class="g-mb-20">
-              <h2 class="g-font-weight-600 g-font-size-25 g-font-size-35--lg g-line-height-1_2 mb-4 g-pt-50">Модна
-                Школа
-              </h2>
-              <p class="g-font-size-16">Модна школа №1 у Івано-Франківську запрошує охочих на модне навчання :)
-                Пропонуємо заглибитись у світ моди та прослухати базовий курс “Моделювання одягу”.</p>
-            </div>
-            <a class="btn u-btn-primary g-brd-2 g-brd-white g-font-size-13 g-rounded-50 g-pl-20 g-pr-15 g-py-9 waves-effect waves-light"
-              href="courses.html/#fashion-school">
-              Більше тут
-              <span class="align-middle u-icon-v3 g-width-16 g-height-16 g-color-black g-brd-yellow g-font-size-11 rounded-circle ml-3">
+	<div class="container">
+		<div class="row d-flex justify-content-between align-items-center flex-wrap g-mt-minus-50--lg">
+			<div class="col-md-6 order-md-2">
+				<div class="g-brd-around g-brd-5 g-brd-brown rounded">
+					<img class="img-fluid w-100 rounded" src="img/gallery/courses/courses.jpg" alt="Fashion School">
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4 ml-auto order-md-1">
+				<div class="g-mt-minus-10 g-mt-0--md g-ml-minus-100--lg">
+					<div class="g-mb-20">
+						<h2 class="g-font-weight-600 g-font-size-25 g-font-size-35--lg g-line-height-1_2 mb-4 g-pt-50">Модна
+							Школа
+						</h2>
+						<p class="g-font-size-16">Модна школа №1 у Івано-Франківську запрошує охочих на модне навчання :)
+							Пропонуємо заглибитись у світ моди та прослухати базовий курс “Моделювання одягу”.</p>
+					</div>
+					<a class="btn u-btn-primary g-brd-2 g-brd-white g-font-size-13 g-rounded-50 g-pl-20 g-pr-15 g-py-9 waves-effect waves-light"
+						 href="courses.html/#fashion-school">
+						Більше тут
+						<span
+								class="align-middle u-icon-v3 g-width-16 g-height-16 g-color-black g-brd-yellow g-font-size-11 rounded-circle ml-3">
                 <i class="fa fa-angle-right"></i>
               </span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
 
-  <section class="g-pt-100 g-pb-100 border-for-section ">
-    <div class="container">
-      <div class="row d-flex justify-content-between align-items-center flex-wrap">
-        <div class="col-md-6 order-md-2">
-          <div class="g-brd-around g-brd-5 g-brd-brown rounded">
-            <img class="img-fluid w-100 rounded" src="img/gallery/Kids_room/kids.jpg" alt="Fashion School">
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 ml-auto order-md-1">
-          <div class="g-mt-minus-10 g-mt-0--md g-ml-minus-100--lg">
-            <div class="g-mb-20">
-              <h2 class="g-font-weight-600 g-font-size-25 g-font-size-35--lg g-line-height-1_2 mb-4 g-pt-50">Дитяча
-                кімната
-              </h2>
-              <p class="g-font-size-16">Тут повинен бути текст про дитячу кімнату.</p>
-            </div>
-            <a class="btn u-btn-primary g-brd-2 g-brd-white g-font-size-13 g-rounded-50 g-pl-20 g-pr-15 g-py-9 waves-effect waves-light"
-              href="#">
-              Read More
-              <span class="align-middle u-icon-v3 g-width-16 g-height-16 g-color-black g-brd-yellow g-font-size-11 rounded-circle ml-3">
+<section class="g-pt-100 g-pb-100 border-for-section ">
+	<div class="container">
+		<div class="row d-flex justify-content-between align-items-center flex-wrap">
+			<div class="col-md-6 order-md-2">
+				<div class="g-brd-around g-brd-5 g-brd-brown rounded">
+					<img class="img-fluid w-100 rounded" src="img/gallery/Kids_room/kids.jpg" alt="Fashion School">
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4 ml-auto order-md-1">
+				<div class="g-mt-minus-10 g-mt-0--md g-ml-minus-100--lg">
+					<div class="g-mb-20">
+						<h2 class="g-font-weight-600 g-font-size-25 g-font-size-35--lg g-line-height-1_2 mb-4 g-pt-50">Дитяча
+							кімната
+						</h2>
+						<p class="g-font-size-16">Тут повинен бути текст про дитячу кімнату.</p>
+					</div>
+					<a class="btn u-btn-primary g-brd-2 g-brd-white g-font-size-13 g-rounded-50 g-pl-20 g-pr-15 g-py-9 waves-effect waves-light"
+						 href="#">
+						Read More
+						<span
+								class="align-middle u-icon-v3 g-width-16 g-height-16 g-color-black g-brd-yellow g-font-size-11 rounded-circle ml-3">
                 <i class="fa fa-angle-right"></i>
               </span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
 
-    <section   class=" border-for-section" >
-      <div class="sizeCarousel container">
-        <!--Carousel Wrapper-->
-        <h2 class="g-font-weight-600 g-font-size-25 g-font-size-35--lg g-line-height-1_2">Галерея
-        </h2>
-        <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel" style="width: 100%">
-          <!--Indicators-->
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-example-2" data-slide-to="0" class="active"> </li>
-            <li data-target="#carousel-example-2" data-slide-to="1"></li>
-            <li data-target="#carousel-example-2" data-slide-to="2"></li>
-          </ol>
-          <!--/.Indicators-->
-          <!--Slides-->
-          <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-              <div class="view">
-                <a href="gallery.html">
-                <img class="d-block w-100" src="img/gallery/Carousel/1.jpg" alt="First slide">
-                  <div class="mask rgba-black-slight"></div>
-              </div>
-              <div class="carousel-caption">
-                <h3 class="h3-responsive">Light mask</h3>
-                <p>First text</p>
-              </div>
-              </a> <!--Діма передись тут непонятка з зилкую-->
-            </div>
-            <div class="carousel-item">
-              <!--Mask color-->
-              <div class="view">
-                <img class="d-block w-100" src="img/gallery/Carousel/2.jpg" alt="Second slide">
-                <div class="mask rgba-black-slight"></div>
-              </div>
-              <div class="carousel-caption">
-                <h3 class="h3-responsive">Strong mask</h3>
-                <p>Secondary text</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <!--Mask color-->
-              <div class="view">
-                <img class="d-block w-100" src="img/gallery/Carousel/6.jpg" alt="Third slide">
-                <div class="mask rgba-black-slight"></div>
-              </div>
-              <div class="carousel-caption">
-                <h3 class="h3-responsive">Slight mask</h3>
-                <p>Third text</p>
-              </div>
-            </div>
-          </div>
-          <!--/.Slides-->
-          <!--Controls-->
-          <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-          <!--/.Controls-->
-        </div>
-        <!--/.Carousel Wrapper-->
-      </div>
-    </section>
+<section class=" border-for-section">
+	<div class="sizeCarousel container">
+		<!--Carousel Wrapper-->
+		<h2 class="g-font-weight-600 g-font-size-25 g-font-size-35--lg g-line-height-1_2">Галерея
+		</h2>
+		<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel" style="width: 100%">
+			<!--Indicators-->
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-2" data-slide-to="1"></li>
+				<li data-target="#carousel-example-2" data-slide-to="2"></li>
+			</ol>
+			<!--/.Indicators-->
+			<!--Slides-->
+			<div class="carousel-inner" role="listbox">
+				<div class="carousel-item active">
+					<div class="view">
+						<a href="gallery.html">
+							<img class="d-block w-100" src="img/gallery/Carousel/1.jpg" alt="First slide">
+							<div class="mask rgba-black-slight"></div>
+					</div>
+					<div class="carousel-caption">
+						<h3 class="h3-responsive">Light mask</h3>
+						<p>First text</p>
+					</div>
+					</a> <!--Діма передись тут непонятка з зилкую-->
+				</div>
+				<div class="carousel-item">
+					<!--Mask color-->
+					<div class="view">
+						<img class="d-block w-100" src="img/gallery/Carousel/2.jpg" alt="Second slide">
+						<div class="mask rgba-black-slight"></div>
+					</div>
+					<div class="carousel-caption">
+						<h3 class="h3-responsive">Strong mask</h3>
+						<p>Secondary text</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<!--Mask color-->
+					<div class="view">
+						<img class="d-block w-100" src="img/gallery/Carousel/6.jpg" alt="Third slide">
+						<div class="mask rgba-black-slight"></div>
+					</div>
+					<div class="carousel-caption">
+						<h3 class="h3-responsive">Slight mask</h3>
+						<p>Third text</p>
+					</div>
+				</div>
+			</div>
+			<!--/.Slides-->
+			<!--Controls-->
+			<a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+			<!--/.Controls-->
+		</div>
+		<!--/.Carousel Wrapper-->
+	</div>
+</section>
 
 
-  <!--End Courses and Coworking-->
+<!--End Courses and Coworking-->
 
-    <!-- Footer -->
-   <footer id="footer-for-all-website-id" class=" conteiner " >
+<!-- Footer -->
+<footer id="footer-for-all-website-id" class=" conteiner ">
 
-  </footer>
-   <!-- End Footer -->
-    
-  <!-- SCRIPTS -->
-  <!-- JQuery -->
-  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
-  <script type="text/javascript" src="js/myApp.js"></script>
+</footer>
+<!-- End Footer -->
+
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<script type="text/javascript" src="js/myApp.js"></script>
 </body>
 
 </html>
