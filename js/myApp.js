@@ -21,3 +21,13 @@ function required(){
       }
       else{return true;}
 }
+
+
+/*add footer*/
+const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
+$(document).ready(function(){
+
+    $('#footer-for-all-website-id').load(serverURL + 'data/footer.html');
+
+  
+    });
