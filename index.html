@@ -18,7 +18,6 @@
   <link href="css/unify-globals.css" rel="stylesheet">
   <link href="css/courses.css" rel="stylesheet">
   <link rel="import" href="header.html"> <!--імпорт header.html  -->
-  <link rel="import" href="curser.html"> <!--імпорт header.html  -->
   <script type="text/javascript" src="js/constants.js"></script> <!--чому підключено тут -->
 </head>
 
@@ -27,7 +26,7 @@
     <!--header nav Yaroslav-->
     <script>
 			var link = document.querySelector('link[rel=import]');
-			var content = link.import.querySelector('#head');
+			var content = link.import.querySelector('#head'); <!-- ваш id -->
 			document.body.appendChild(content.cloneNode(true));
     </script>
     <!--/header nav Yaroslav -->
