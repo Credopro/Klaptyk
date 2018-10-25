@@ -22,77 +22,17 @@
 </head>
 
 <body>
-    <div class="conteiner">
+    <!--header nav Yaroslav-->
+    <script>
+        var link = document.querySelector('link[rel=import]');
+        var content = link.import.querySelector('#head'); /*ваш ID*/
+        document.body.appendChild(content.cloneNode(true));
+    </script>
+    <!--/header nav Yaroslav -->
 
-        <!--heder nav Yaroslav-->
-        <!--Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-light warning-color lighten-5">
-
-            <!-- Navbar brand -->
-            <a class="navbar-brand" href="#">Лого</a>
-
-            <!-- Collapse button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-                aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Collapsible content -->
-            <div class="collapse navbar-collapse" id="basicExampleNav">
-
-                <!-- Links -->
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="index.html">Головна
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Коворкінг</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Курси</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Галерея</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Дитяча кімната</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacts.html">Контакти</a>
-                    </li>
-
-                    <!--&lt;!&ndash; Dropdown &ndash;&gt;-->
-                    <!--<li class="nav-item dropdown">-->
-                    <!--<a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"-->
-                    <!--aria-expanded="false">Dropdown</a>-->
-                    <!--<div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">-->
-                    <!--<a class="dropdown-item" href="#">Action</a>-->
-                    <!--<a class="dropdown-item" href="#">Another action</a>-->
-                    <!--<a class="dropdown-item" href="#">Something else here</a>-->
-                    <!--</div>-->
-                    </li>
-
-                </ul>
-                <!-- Links -->
-
-                <form class="form-inline">
-                    <div class="md-form my-0">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                    </div>
-                </form>
-            </div>
-            <!-- Collapsible content -->
-
-        </nav>
+    <div class=" m-5 ">
+        <h1 class="display-3 introbgr text-center font-weight-bold p-2">Курси</h1>
     </div>
-    <!--/.Navbar-->
-    <div class="conteiner">
-        <div class=" m-5 ">
-            <h1 class="display-3 introbgr text-center font-weight-bold p-2">Курси</h1>
-        </div>
     </div>
     <div class="conteiner">
         <div class="fashion-school  introbgr m-5">
@@ -276,7 +216,7 @@
         var link = document.querySelector('link[rel=import]');
         var content = link.import.querySelector('#footer-for-all-website-id'); /*ваш ID*/
         document.body.appendChild(content.cloneNode(true));
-</script>
+    </script>
     <!-- End Footer -->
 
     <!-- SCRIPTS -->
