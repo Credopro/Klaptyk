@@ -30,8 +30,8 @@
 
 
 	// add footer
-	// const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
-	let serverURL = 'd://WWW//OSPanel//domains//Klaptyk//Klaptyk//';
+	const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
+	// let serverURL = 'd://WWW//OSPanel//domains//Klaptyk//Klaptyk//';
 	$(document).ready(function () {
 
 		var imageIndex = 0;
