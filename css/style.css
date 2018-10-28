@@ -58,9 +58,18 @@ a:hover{
 
 
 /*navbar*/
-.top-nav-collapse{
-  background-color: var(--main-ivory-color);
+.top-menu{
+	z-index: 999;
 }
+
+.sticky-menu{
+	position: fixed;
+	top: 0;
+}
+
+/*.top-nav-collapse{*/
+  /*background-color: var(--main-ivory-color);*/
+/*}*/
 @media (max-width: 768px) {
   .nabar:not(.top-nav-collapse){
     background-color: var(--main-ivory-color);

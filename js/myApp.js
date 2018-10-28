@@ -1,6 +1,15 @@
 // Start using JQuery
 
-
+$(function(){
+	$(window).scroll(function() {
+		if($(this).scrollTop() >= 120) {
+			$('.top-menu').addClass(' sticky-menu ');
+		}
+		else{
+			$('.top-menu').removeClass(' sticky-menu ');
+		}
+	});
+});
 
 	function required() {
 		var name = document.forms["cont_form"].elements["name"].value;
