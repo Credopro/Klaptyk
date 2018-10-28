@@ -1,15 +1,5 @@
-// Start using JQuery
 
-function(){
-	(window).scroll(function() {
-		if((this).scrollTop() >= 120) {
-			('.top-menu').addClass(' sticky-menu ');
-		}
-		else{
-			('.top-menu').removeClass(' sticky-menu ');
-		}
-	});
-});
+
 
 	function required() {
 		var name = document.forms["cont_form"].elements["name"].value;
@@ -36,11 +26,10 @@ function(){
 			return true;
 		}
 	}
+	// Start using JQuery
 
-
-	// add footer
-	const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
-	// let serverURL = 'd://WWW//OSPanel//domains//Klaptyk//Klaptyk//';
+	// const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
+	let serverURL = 'http://klaptyk/Klaptyk/';
 	$(document).ready(function () {
 
 		var imageIndex = 0;
@@ -57,11 +46,22 @@ function(){
 			}
 		});
 
+		// add footer
+
 		$('#footer-for-all-website-id').load(serverURL + 'data/footer.html');
 
 		// add header
 		$('#header-for-all-website-id').load(serverURL + 'header/header.html');
 
+		// scroll
+		$(window).scroll(function() {
+			if($(this).scrollTop() >= 150) {
+				$('nav').addClass(' sticky-menu ');
+			}
+			else{
+				$('nav').removeClass(' sticky-menu ');
+			}
+		});
 		// /header
 
 

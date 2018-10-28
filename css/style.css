@@ -58,13 +58,13 @@ a:hover{
 
 
 /*navbar*/
-.top-menu{
-	z-index: 999;
-}
 
 .sticky-menu{
+	width: 100%;
 	position: fixed;
 	top: 0;
+	background-color: rgba(255, 255, 240, 0.9);
+	z-index: 999;
 }
 
 /*.top-nav-collapse{*/
