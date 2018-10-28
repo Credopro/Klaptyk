@@ -27,9 +27,6 @@ header{
 	padding: 20px 5% 5%;
 }
 
-/*.top-nav-collapse{*/
-  /*background-color: color: var(--main-ivory-color);*/
-/*}*/
 
 .translucent{
 	background-color: rgba(255, 255, 240, 0.9);
@@ -59,7 +56,17 @@ a:hover{
   transition: 0.9s;
 }
 
+
 /*navbar*/
+.top-nav-collapse{
+  background-color: var(--main-ivory-color);
+}
+@media (max-width: 768px) {
+  .nabar:not(.top-nav-collapse){
+    background-color: var(--main-ivory-color);
+  }
+
+}
 
 /*/navbar*/
 
@@ -87,7 +94,7 @@ footer.page-footer {
   font-size: 1.2em;
 }
 .envelope{
-  box-shadow: 0px 0px 3px 2px #aaa;
+  box-shadow: 0 0 3px 2px #aaa;
   max-width: 800px;
   padding: 0;
 }
