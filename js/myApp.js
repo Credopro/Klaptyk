@@ -55,11 +55,11 @@
 
 		// scroll
 		$(window).scroll(function() {
-			if($(this).scrollTop() >= 150) {
-				$('nav').addClass(' sticky-menu ');
+			if($(this).scrollTop() >= 120) {
+				$('nav').addClass(' fixed-top ');
 			}
 			else{
-				$('nav').removeClass(' sticky-menu ');
+				$('nav').removeClass(' fixed-top ');
 			}
 		});
 		// /header

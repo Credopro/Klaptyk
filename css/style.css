@@ -59,12 +59,9 @@ a:hover{
 
 /*navbar*/
 
-.sticky-menu{
-	width: 100%;
-	position: fixed;
-	top: 0;
+.fixed-top{
+	margin: 0 9%;
 	background-color: rgba(255, 255, 240, 0.9);
-	z-index: 999;
 }
 
 /*.top-nav-collapse{*/
