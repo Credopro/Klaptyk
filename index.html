@@ -17,9 +17,9 @@
 	<link href="css/unify-components.css" rel="stylesheet">
 	<link href="css/unify-globals.css" rel="stylesheet">
 	<link href="css/courses.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style\fontawesome-free-5.3.1-web\css\all.css">
 	<link rel="import" href="header.html"> <!--імпорт header.html  -->
-	<link rel="import2" href="about.html">
-	<script type="text/javascript" src="js/constants.js"></script> <!--чому підключено тут -->
+	<link rel="import" href="about.html">
 </head>
 
 <body>
@@ -27,8 +27,7 @@
 <!--header nav Yaroslav-->
 <script>
 	var link = document.querySelector('link[rel=import]');
-	var content = link.import.querySelector('#head');
-	/*ваш ID*/
+	var content = link.import.querySelector('#head');	/*ваш ID*/
 	document.body.appendChild(content.cloneNode(true));
 </script>
 <!--about-us-->
@@ -37,43 +36,7 @@
 <!--var content = link.import.querySelector('#about'); /*ваш ID*/-->
 <!--document.body.appendChild(content.cloneNode(true));-->
 <!--</script>-->
-<section id="about" class="g-pt-100 g-pb-100 border-for-section ">
-	<div class="container">
-		<div class="row d-flex align-items-center flex-wrap g-mb-60 g-mb-0--lg">
 
-			<h2 class="g-font-weight-600 g-font-size-25 g-font-size-35--lg g-line-height-1_2 mb-4 g-pt-30">
-				Клаптик
-			</h2>
-			<p>
-				— це затишний простір для творчих людей, які прагнуть розвиватися та пізнавати нове, прагнуть
-				працювати над собою та творити. Ми чи не щодня проводимо різноманітні майстер-класи для дорослих і дітей,
-				цікаві зустрічі та презентації.<br>
-
-				Разом з вами малюємо, проектуємо, створюємо модні дизайни, в’яжемо та весело проводимо час. Долучайтеся до нашої
-				дружньої творчої сім’ї.
-			</p>
-			<div class="row d-flex align-items-center flex-wrap">
-				<div class="col-md-4">
-					<ul>
-						<li>затишний та комфортний інтер’єр;</li>
-						<li>привітне ставлення;</li>
-					</ul>
-				</div>
-				<div class="col-md-4">
-					<ul>
-						<li>удовий та дружній колектив;</li>
-						<li>проведення майстер-класів;</li>
-					</ul>
-				</div>
-				<div class="col-md-4">
-					<ul>
-						<li>можливість орендувати майстерню для проведення майстер-класу</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-</section><!--/about-us-->
 <!--/about-us-->
 
 <!--/header nav Yaroslav -->
@@ -138,7 +101,7 @@
 						<span
 								class="align-middle u-icon-v3 g-width-16 g-height-16 g-color-black g-brd-yellow g-font-size-11 rounded-circle ml-3">
                 <i class="fa fa-angle-right"></i>
-              </span>
+						</span>
 					</a>
 				</div>
 			</div>
@@ -194,15 +157,15 @@
 			<!--Slides-->
 			<div class="carousel-inner" role="listbox">
 				<div class="carousel-item active">
-					<div class="view">
-						<a href="gallery.html">
+					<a href="gallery.html">
+						<div class="view">
 							<img class="d-block w-100" src="img/gallery/Carousel/1.jpg" alt="First slide">
 							<div class="mask rgba-black-slight"></div>
-					</div>
-					<div class="carousel-caption">
-						<h3 class="h3-responsive">Light mask</h3>
-						<p>First text</p>
-					</div>
+						</div>
+						<div class="carousel-caption">
+							<h3 class="h3-responsive">Light mask</h3>
+							<p>First text</p>
+						</div>
 					</a> <!--Діма передись тут непонятка з зилкую-->
 				</div>
 				<div class="carousel-item">
@@ -263,6 +226,7 @@
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="js/mdb.min.js"></script>
 <script type="text/javascript" src="js/myApp.js"></script>
+<script type="text/javascript" src="js/fontawesome-free-5.4.2-web-all.min.js"></script>
 </body>
 
 </html>

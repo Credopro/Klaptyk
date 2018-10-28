@@ -7,6 +7,11 @@
   /*color: var(--main-brown-color);*/
 }
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 
 /*heder nav Yaroslav*/
 
@@ -28,7 +33,11 @@ header{
 }
 
 .logo{
-	height: 120px;
+	width: 100px;
+}
+.logo:hover{
+  transform: rotate(-10deg);
+  transition: 0.1s;
 }
 
 a{
@@ -37,6 +46,13 @@ a{
 }
 a:hover{
 	color: #ffa000;
+}
+.fa-mobile-alt{
+  margin-right: 10px;
+}
+.fa-mobile-alt:hover{
+  transform: rotate(360deg);
+  transition: 0.9s;
 }
 
 /*navbar*/
