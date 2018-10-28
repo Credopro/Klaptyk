@@ -29,6 +29,19 @@ function required() {
 const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
 $(document).ready(function () {
 
+    var imageIndex = 0;
+    var images = [
+        "img/gallery/Kids_room/kids1.jpg",
+        "img/gallery/Kids_room/kids2.jpg",
+        "img/gallery/Kids_room/kids.jpg"
+        ];
+    $('img').click(function () {
+        $(this).attr("src", images[imageIndex]);
+        imageIndex++;
+        if (imageIndex > images.length-1){
+            imageIndex = 0;
+        }
+    });
     $('#footer-for-all-website-id').load(serverURL + 'data/footer.html');
 
     /*background table (Vova_Hundyak) */

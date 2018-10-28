@@ -181,3 +181,8 @@ form .feedback:focus{
 .special-row{
   height: 68px;
 }
+/*fixed images (Vova_Hundyak) */
+.my-image{
+  width: 366px;
+  height: 220px;
+}
