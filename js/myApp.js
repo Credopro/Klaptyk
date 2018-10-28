@@ -28,8 +28,8 @@
 	}
 	// Start using JQuery
 
-	// const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
-	let serverURL = 'http://klaptyk/Klaptyk/';
+	const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
+	// let serverURL = 'http://klaptyk/Klaptyk/';
 	$(document).ready(function () {
 
 		// add footer
@@ -41,6 +41,10 @@
 
 		// about-us
 		$('#about-us').load(serverURL + 'about-us/about-us.html');
+		// courses-index
+		// $('#courses-index').load(serverURL + 'coursers/courses_index.html');
+
+
 
 		// scroll
 		$(window).scroll(function() {
