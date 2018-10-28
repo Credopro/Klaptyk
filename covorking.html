@@ -21,63 +21,12 @@
 </head>
 <!--heder nav Yaroslav-->
 <!--Navbar-->
-<nav class="navbar navbar-expand-lg navbar-light warning-color lighten-5">
-
-    <!-- Navbar brand -->
-    <a class="navbar-brand" href="#">Лого</a>
-
-    <!-- Collapse button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <!-- Collapsible content -->
-    <div class="collapse navbar-collapse" id="basicExampleNav">
-
-        <!-- Links -->
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Головна
-                    <span class="sr-only">(current)</span>
-                </a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="tarf.html">Коворкінг</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Курси</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="#">Галерея</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Дитяча кімната</a>
-            </li>
-            <li class="nav-item ">
-                <a class="nav-link" href="contacts.html">Контакти</a>
-            </li>
-
-            <!--&lt;!&ndash; Dropdown &ndash;&gt;-->
-            <!--<li class="nav-item dropdown">-->
-            <!--<a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"-->
-            <!--aria-expanded="false">Dropdown</a>-->
-            <!--<div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">-->
-            <!--<a class="dropdown-item" href="#">Action</a>-->
-            <!--<a class="dropdown-item" href="#">Another action</a>-->
-            <!--<a class="dropdown-item" href="#">Something else here</a>-->
-            <!--</div>-->
-            <!--</li>-->
-        </ul>
-        <!-- Links -->
-        <form class="form-inline">
-            <div class="md-form my-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            </div>
-        </form>
-    </div>
-</nav>
+<script>
+    var link = document.querySelector('link[rel=import]');
+    var content = link.import.querySelector('#head');
+    /*ваш ID*/
+    document.body.appendChild(content.cloneNode(true));
+</script>
 <div class="contacts_main g-pt-50 border-for-section">
     <div class="container">
         <div class="row d-flex justify-content-between align-items-lg-center flex-wrap">
@@ -89,7 +38,7 @@
             <div class="col-md-6 col-lg-4 ml-auto order-md-1">
                 <div class="g-mt-minus-10 g-mt-0--md g-ml-minus-100--lg">
                     <div class="g-mb-20">
-                        <h2 class="g-font-weight-600 g-font-size-25 g-font-size-35--lg g-line-height-1_2 mb-4 g-pt-50">Кворкінг</h2>
+                        <h2 class="g-font-weight-600 g-font-size-25 g-font-size-35--lg g-line-height-1_2 mb-4 g-pt-50">Коворкінг</h2>
                         <p class="g-font-size-16">Аренда оборудованного швейного места от часа,
                             <br>консультации мастеров, мастер-классы и сток
                             <br>дизайнерских тканей – все в одном месте.</p>
