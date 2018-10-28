@@ -28,8 +28,8 @@
 	}
 	// Start using JQuery
 
-	// const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
-	let serverURL = 'http://klaptyk/Klaptyk/';
+	const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
+	// let serverURL = 'http://klaptyk/Klaptyk/';
 	$(document).ready(function () {
 
 		var imageIndex = 0;
