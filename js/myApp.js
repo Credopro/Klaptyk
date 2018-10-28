@@ -1,12 +1,12 @@
 // Start using JQuery
 
-$(function(){
-	$(window).scroll(function() {
-		if($(this).scrollTop() >= 120) {
-			$('.top-menu').addClass(' sticky-menu ');
+function(){
+	(window).scroll(function() {
+		if((this).scrollTop() >= 120) {
+			('.top-menu').addClass(' sticky-menu ');
 		}
 		else{
-			$('.top-menu').removeClass(' sticky-menu ');
+			('.top-menu').removeClass(' sticky-menu ');
 		}
 	});
 });
