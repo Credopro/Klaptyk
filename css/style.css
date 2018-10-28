@@ -4,7 +4,7 @@
 	--main-yellow-color: #FCE43A;
 
 	--main-ivory-color: #FFFFF0;
-  /*color: var(--main-brown-color);*/
+  /*color: var(--main-ivory-color);*/
 }
 
 *{
@@ -25,6 +25,10 @@ header{
 
 #header-for-all-website-id{
 	padding: 20px 5% 5%;
+}
+
+.top-nav-collapse{
+  background-color: color: var(--main-ivory-color);
 }
 
 .translucent{
