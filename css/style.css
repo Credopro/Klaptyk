@@ -195,19 +195,3 @@ form .feedback:focus{
 }
 /* *** End Carousel *** */
 
-/*background table (Vova_Hundyak) */
-.bg-table{
-  background-color: var(--main-yellow-color);
-}
-
-.table-text{
-  font-size: 23px;
-}
-.special-row{
-  height: 68px;
-}
-/*fixed images (Vova_Hundyak) */
-.my-image{
-  width: 366px;
-  height: 220px;
-}

@@ -1,0 +1,16 @@
+/*background table*/
+.bg-table{
+    background-color: var(--main-yellow-color);
+}
+
+.table-text{
+    font-size: 23px;
+}
+.special-row{
+    height: 68px;
+}
+/*images*/
+.my-image{
+    width: 366px;
+    height: 270px;
+}
