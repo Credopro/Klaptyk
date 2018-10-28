@@ -12,13 +12,13 @@ $mail->Host = 'smtp.gmail.com';
 $mail->Port       = 587;
 $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth   = true;
-$mail->Username = 'bragardlin';
-$mail->Password = 'punx0905';
+$mail->Username = '';
+$mail->Password = '';
 
 $mail->CharSet = 'UTF-8';
-$mail->SetFrom('bragar.sanya@gmail.com');
+$mail->SetFrom('');
 $mail->FromName = "$name"; // имя отправителя
-$mail->addAddress('bragardlin@gmail.com');
+$mail->addAddress('');
 //$mail->SMTPDebug  = 3;
 //$mail->Debugoutput = function($str, $level) {echo "debug level $level; message: $str";}; //$mail->Debugoutput = 'echo';
 $mail->IsHTML(true);
