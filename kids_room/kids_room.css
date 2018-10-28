@@ -1,6 +1,6 @@
 /*background table*/
 .bg-table{
-    background-color: var(--main-yellow-color);
+    background-color: var(--main-brown-color);
 }
 
 .table-text{
@@ -13,4 +13,7 @@
 .my-image{
     width: 366px;
     height: 270px;
+}
+g-brd-brown{
+
 }
