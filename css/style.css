@@ -27,9 +27,9 @@ header{
 	padding: 20px 5% 5%;
 }
 
-.top-nav-collapse{
-  background-color: color: var(--main-ivory-color);
-}
+/*.top-nav-collapse{*/
+  /*background-color: color: var(--main-ivory-color);*/
+/*}*/
 
 .translucent{
 	background-color: rgba(255, 255, 240, 0.9);
