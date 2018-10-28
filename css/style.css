@@ -34,7 +34,7 @@ header{
 }
 
 .logo{
-	width: 100px;
+	width: 90px;
 }
 .logo:hover{
   transform: rotate(-10deg);
@@ -62,17 +62,9 @@ a:hover{
 .fixed-top{
 	margin: 0 9%;
 	background-color: rgba(255, 255, 240, 0.9);
-}
-
-/*.top-nav-collapse{*/
-  /*background-color: var(--main-ivory-color);*/
-/*}*/
-@media (max-width: 768px) {
-  .nabar:not(.top-nav-collapse){
-    background-color: var(--main-ivory-color);
-  }
 
 }
+
 
 /*/navbar*/
 

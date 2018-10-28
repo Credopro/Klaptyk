@@ -53,6 +53,9 @@
 		// add header
 		$('#header-for-all-website-id').load(serverURL + 'header/header.html');
 
+		// about-us
+		$('#about-us').load(serverURL + 'about-us/about-us.html');
+
 		// scroll
 		$(window).scroll(function() {
 			if($(this).scrollTop() >= 120) {
@@ -62,7 +65,7 @@
 				$('nav').removeClass(' fixed-top ');
 			}
 		});
-		// /header
+		// end header
 
 
 		/*background table (Vova_Hundyak) */
