@@ -15,7 +15,8 @@ $(document).ready(function () {
 	$('#aboutus').load(serverURL + 'aboutus/aboutus.html');
 	// courses-index
 	// $('#courses-index').load(serverURL + 'coursers/courses_index.html');
-
+    // kids_room
+    $('#kids_room').load(serverURL + 'kids_room/kids_room_index.html');
 
 	// scroll
 	$(window).scroll(function () {
