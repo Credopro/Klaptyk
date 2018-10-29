@@ -6,7 +6,8 @@ $(document).ready(function () {
     var images = [
         "../img/gallery/Kids_room/kids1.jpg",
         "../img/gallery/Kids_room/kids2.jpg",
-        "../img/gallery/Kids_room/kids.jpg"
+        "../img/gallery/Kids_room/kids.jpg",
+        "../img/gallery/Kids_room/kids0.png"
     ];
     $('img').click(function () {
         $(this).attr("src", images[imageIndex]);
