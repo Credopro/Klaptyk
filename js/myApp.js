@@ -32,7 +32,7 @@ $(document).ready(function () {
 
 	// add footer
 
-	$('#footer-for-all-website-id').load(serverURL + 'data/footer.html');
+	$('#footer-for-all-website-id').load(serverURL + 'footer/footer.html');
 
 	// add header
 	$('#header-for-all-website-id').load(serverURL + 'header/header.html');

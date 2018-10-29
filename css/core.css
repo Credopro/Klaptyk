@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--main-brown-color: #372018;
+
+	--main-yellow-color: #FCE43A;
+
+	--main-ivory-color: #FFFFF0;
+	/*color: var(--main-ivory-color);*/
+}
+
+body{
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+}

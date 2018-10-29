@@ -1,79 +1,45 @@
-:root {
-	--main-brown-color: #372018;
-
-	--main-yellow-color: #FCE43A;
-
-	--main-ivory-color: #FFFFF0;
-  /*color: var(--main-ivory-color);*/
-}
-
-*{
-  margin: 0;
-  padding: 0;
-}
 
 
-/*heder nav Yaroslav*/
-
-/*header*/
-header{
-	color: var(--main-brown-color);
-	background: url(../img/bg/bg2.png) no-repeat center center fixed;
-	background-size: cover;
-	-webkit-background-size: cover;
-}
-
-#header-for-all-website-id{
-	padding: 20px 5% 5%;
-}
-
-
-.translucent{
-	background-color: rgba(255, 255, 240, 0.9);
-	padding: 10px 10px;
-}
-
-.logo{
-	width: 90px;
-}
-.logo:hover{
-  transform: rotate(-10deg);
-  transition: 0.1s;
-}
-
-a{
-	color: var(--main-brown-color);
-	font-weight: 600;
-}
-a:hover{
-	color: #ffa000;
-}
-.fa-mobile-alt{
-  margin-right: 10px;
-}
-.fa-mobile-alt:hover{
-  transform: rotate(360deg);
-  transition: 0.9s;
-}
-
-
-/*navbar*/
-
-.fixed-top{
-	margin: 0 9%;
-	background-color: rgba(255, 255, 240, 0.9);
-
-}
-
-
-/*/navbar*/
-
-
-/* / heder nav Yaroslav*/
+@import url('core.css');
+@import url('fonts.css');
+@import url('../contacts/contacts.css');
+@import url('../courses/courses.css');
+@import url('../coworking/coworking.css');
+@import url('../header/header.css');
 
 
 
 /*section courses */
+
+html, body, #intro {
+	height: 100%;
+	background-color: var(--main-ivory-color);
+	color: var(--main-brown-color);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+div.card {
+	background-color: var(--main-ivory-color);
+	color: var(--main-brown-color);
+	padding: 10px;
+}
+
+.introbgr, div.plans {
+	border: 1px solid var(--main-brown-color);
+	background-color: var(--main-ivory-color);
+}
+
+
+footer.page-footer a {
+	color: #F4F2C1;
+	padding: 20px 15px 10px 15px;
+
+}
+
+p.text-size,li {
+	font-weight: 400;
+}
 
 .border-for-section{
     background-color: var(--main-ivory-color);
