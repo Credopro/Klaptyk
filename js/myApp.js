@@ -6,7 +6,7 @@ const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
 	// debugger;
 
 	 // add header
-	$('#top-for-all-website-id').load(serverURL + '../header/top.html');
+	$('#top-for-all-website-id').load(serverURL + 'header/top.html');
 
 	// aboutus
 	$('#about-us').load(serverURL + 'header/about.html');
@@ -21,7 +21,7 @@ const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
 	// $('#kids_room').load(serverURL + '..kids_room/kids_room_index.html');
 
 	// add footer
-	$('#footer-for-all-website-id').load(serverURL + '../footer/footer.html');
+	$('#footer-for-all-website-id').load(serverURL + 'footer/footer.html');
 
 
 	// scroll
