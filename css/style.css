@@ -1,8 +1,24 @@
+<<<<<<< HEAD
 @import url("core.css");
 @import url("fonts.css");
 @import url("../contacts/contacts.css");
 @import url("../coworking/coworking.css");
 @import url("../header/header.css");
+=======
+
+
+@import url('core.css');
+@import url('fonts.css');
+@import url('../contacts/contacts.css');
+@import url('../courses/courses.css');
+@import url('../coworking/coworking.css');
+@import url('../header/header-top.css');
+
+
+
+/*section courses */
+
+>>>>>>> refs/remotes/origin/master
 html, body, #intro {
   height: 100%;
   -webkit-background-size: cover;

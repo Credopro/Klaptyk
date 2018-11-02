@@ -6,13 +6,18 @@ $(document).ready(function () {
 	// debugger;
 
 	 // add header
-	$('#header-for-all-website-id').load(serverURL + '../header/header.html');
+	$('#top-for-all-website-id').load(serverURL + '../header/top.html');
 
 	// aboutus
-	$('#about').load(serverURL + '../about/about.html');
+	$('#about-us').load(serverURL + '../header/about.html');
 
+<<<<<<< HEAD
 	// coworking
 	$('#coworkinIndex').load(serverURL + '../coworking/coworkin_index.html');
+=======
+	// coworkinIndex
+	$('#coworkin-Index').load(serverURL + '../coworking/coworkin-Index.html');
+>>>>>>> refs/remotes/origin/master
 
 	// courses-index
 	$('#courses-index').load(serverURL + '../courses/courses_index.html');
