@@ -1,6 +1,6 @@
 // Start using JQuery
 $(document).ready(function () {
-const serverURL = 'https://github.com/Jaroslav-Credopro/Klaptyk/';
+const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
 // const serverURL = 'http://klaptyk/Klaptyk/';
 
 	// debugger;
