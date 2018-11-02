@@ -1,7 +1,7 @@
 // Start using JQuery
 $(document).ready(function () {
-//const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
- const serverURL = 'http://klaptyk/';
+const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
+ //const serverURL = 'http://klaptyk/';
 
 	// debugger;
 
@@ -9,18 +9,13 @@ $(document).ready(function () {
 	$('#top-for-all-website-id').load(serverURL + '../header/top.html');
 
 	// aboutus
-	$('#about-us').load(serverURL + '../header/about.html');
+	$('#about-us').load(serverURL + 'header/about.html');
 
-<<<<<<< HEAD
 	// coworking
-	$('#coworkinIndex').load(serverURL + '../coworking/coworkin_index.html');
-=======
-	// coworkinIndex
-	$('#coworkin-Index').load(serverURL + '../coworking/coworkin-Index.html');
->>>>>>> refs/remotes/origin/master
+	$('#coworkin-index').load(serverURL + 'coworking/coworkin_index.html');
 
 	// courses-index
-	$('#courses-index').load(serverURL + '../courses/courses_index.html');
+	$('#courses-index').load(serverURL + 'courses/courses_index.html');
 
 	// kids_room
 	// $('#kids_room').load(serverURL + '..kids_room/kids_room_index.html');
