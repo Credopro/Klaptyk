@@ -1,0 +1,103 @@
+
+
+@import url('core.css');
+@import url('fonts.css');
+@import url('../contacts/contacts.css');
+@import url('../courses/courses.css');
+@import url('../coworking/coworking.css');
+@import url('../header/header.css');
+
+
+
+/*section courses */
+
+html, body, #intro {
+	height: 100%;
+	background-color: var(--main-ivory-color);
+	color: var(--main-brown-color);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+div.card {
+	background-color: var(--main-ivory-color);
+	color: var(--main-brown-color);
+	padding: 10px;
+}
+
+.introbgr, div.plans {
+	border: 1px solid var(--main-brown-color);
+	background-color: var(--main-ivory-color);
+}
+
+
+footer.page-footer a {
+	color: #F4F2C1;
+	padding: 20px 15px 10px 15px;
+
+}
+
+p.text-size,li {
+	font-weight: 400;
+}
+
+.border-for-section{
+    background-color: var(--main-ivory-color);
+    color: var(--main-brown-color);
+    border: 2px solid var(--main-brown-color);
+    margin: 5%;
+
+}
+
+footer.page-footer {
+    background-color: var(--main-brown-color);
+    color: #F4F2C1;
+}
+
+
+#DR1{
+  text-align:center;
+  line-height: 50px;
+  font-weight:bolder;
+  font-size:30px;
+}
+#DR2{
+   text-align:center;
+   font-weight:bolder;
+   font-size:20px;
+ }
+#DR3{
+  text-align:center;
+  font-size:20px;
+}
+#pic {
+  float: left;
+
+}
+#text {
+  margin-left: 110px;
+}
+
+/* *** Start Carousel *** */
+.sizeCarousel
+{
+  padding: 20px;
+}
+.some
+{
+  position: absolute;
+  width: calc(100% - 110px);
+  height: calc(100% - 110px);
+  left: 55px;
+  top: 55px;
+  text-align: center;
+  padding-top: 220px;
+  border: 1px solid #fff;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+/* *** End Carousel *** */
+

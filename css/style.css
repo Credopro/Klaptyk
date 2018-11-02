@@ -1,93 +1,66 @@
-
-
-@import url('core.css');
-@import url('fonts.css');
-@import url('../contacts/contacts.css');
-@import url('../courses/courses.css');
-@import url('../coworking/coworking.css');
-@import url('../header/header.css');
-
-
-
-/*section courses */
-
+@import url("core.css");
+@import url("fonts.css");
+@import url("../contacts/contacts.css");
+@import url("../coworking/coworking.css");
+@import url("../header/header.css");
 html, body, #intro {
-	height: 100%;
-	background-color: var(--main-ivory-color);
-	color: var(--main-brown-color);
-	-webkit-background-size: cover;
-	background-size: cover;
-}
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+
+html, body, #intro, div.card, .introbgr, div.plans, .border-for-section {
+  background-color: #FFFFF0;
+  color: #372018; }
 
 div.card {
-	background-color: var(--main-ivory-color);
-	color: var(--main-brown-color);
-	padding: 10px;
-}
+  padding: 10px; }
 
-.introbgr, div.plans {
-	border: 1px solid var(--main-brown-color);
-	background-color: var(--main-ivory-color);
-}
-
+.introbgr, div.plans, .border-for-section {
+  border: 2px solid #372018; }
 
 footer.page-footer a {
-	color: #F4F2C1;
-	padding: 20px 15px 10px 15px;
-
-}
-
-p.text-size,li {
-	font-weight: 400;
-}
-
-.border-for-section{
-    background-color: var(--main-ivory-color);
-    color: var(--main-brown-color);
-    border: 2px solid var(--main-brown-color);
-    margin: 5%;
-
-}
+  color: #F4F2C1;
+  padding: 20px 15px 10px 15px; }
 
 footer.page-footer {
-    background-color: var(--main-brown-color);
-    color: #F4F2C1;
-}
+  background-color: #372018;
+  color: #F4F2C1; }
 
+p.text-size, li {
+  font-weight: 400; }
 
-#DR1{
-  text-align:center;
+.border-for-section {
+  margin: 5%; }
+
+#DR1, #DR2 {
+  text-align: center;
+  font-weight: bolder; }
+
+#DR1 {
   line-height: 50px;
-  font-weight:bolder;
-  font-size:30px;
-}
-#DR2{
-   text-align:center;
-   font-weight:bolder;
-   font-size:20px;
- }
-#DR3{
-  text-align:center;
-  font-size:20px;
-}
-#pic {
-  float: left;
+  font-size: 30px; }
 
-}
+#DR2 {
+  font-size: 20px; }
+
+#DR3 {
+  text-align: center;
+  font-size: 20px; }
+
+#pic {
+  float: left; }
+
 #text {
-  margin-left: 110px;
-}
+  margin-left: 110px; }
 
 /* *** Start Carousel *** */
-.sizeCarousel
-{
-  padding: 20px;
-}
-.some
-{
-  position: absolute;
+.sizeCarousel {
+  padding: 20px; }
+
+.some {
   width: calc(100% - 110px);
   height: calc(100% - 110px);
+  position: absolute;
   left: 55px;
   top: 55px;
   text-align: center;
@@ -97,7 +70,4 @@ footer.page-footer {
   opacity: 0;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
-  transition: all 0.4s;
-}
-/* *** End Carousel *** */
-
+  transition: all 0.4s; }
