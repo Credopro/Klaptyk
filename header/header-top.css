@@ -9,13 +9,15 @@ header{
 	-webkit-background-size: cover;
 }
 
-#header-for-all-website-id{
-	padding: 20px 5% 5%;
+#top-for-all-website-id,
+#about-us{
+	padding: 20px 5%;
 }
 
-.translucent{
-	background-color: rgba(255, 255, 240, 0.9);
-	padding: 10px 10px;
+
+.clear{
+	background-color: var(--main-ivory-color-clear);
+	margin: 0 5%;
 }
 
 .logo{
@@ -27,7 +29,6 @@ header{
 }
 .logo-text{
 	font-family: "SegoePrint", Helvetica, Arial, sans-serif;
-	font-size: 0.9em;
 }
 
 a{

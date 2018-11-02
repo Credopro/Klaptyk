@@ -6,13 +6,13 @@ const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
 	// debugger;
 
 	 // add header
-	$('#header-for-all-website-id').load(serverURL + '../header/header.html');
+	$('#top-for-all-website-id').load(serverURL + '../header/top.html');
 
 	// aboutus
-	$('#about').load(serverURL + '../about/about.html');
+	$('#about-us').load(serverURL + '../header/about.html');
 
-	// coworking
-	$('#coworkinIndex').load(serverURL + '../coworking/coworkinIndex.html');
+	// coworkinIndex
+	$('#coworkin-Index').load(serverURL + '../coworking/coworkin-Index.html');
 
 	// courses-index
 	$('#courses-index').load(serverURL + 'coursers/courses_index.html');
