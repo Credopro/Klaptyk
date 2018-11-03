@@ -10,7 +10,8 @@ header{
 }
 
 #top-nav-for-all-website-id,
-#about-us{
+#about-us,
+.top-index{
 	padding: 20px 5%;
 }
 
