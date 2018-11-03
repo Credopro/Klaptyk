@@ -1,14 +1,14 @@
 // Start using JQuery
 $(document).ready(function () {
 
-const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
-// const serverURL = 'http://klaptyk/';
+// const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
+const serverURL = 'http://klaptyk/';
 
 
 	// debugger;
 
 	 // add header
-	$('#top-for-all-website-id').load(serverURL + 'header/top.html');
+	$('#top-nav-for-all-website-id').load(serverURL + 'header/topNav.html');
 
 	// aboutus
 	$('#about-us').load(serverURL + 'header/about.html');
