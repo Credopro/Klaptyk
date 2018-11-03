@@ -51,21 +51,18 @@
         <div class="row pb-5">
           <div class="col-sm-11 col-md-8 col-lg-6 envelope mx-auto">
             <h2 class="title_before_form ">Зв'яжіться з нами</h2>
-            <form method="post" name="cont_form" id="contForm" onsubmit="return formSubmission(this)">
-              <input class="feedback" id="name_id" type="text" name="Name" onblur="validateForm(this); buttonDisabled();" onkeyup="validateDelay(this)" placeholder="Ваше ім'я">
+            <form method="post" name="cont_form" id="contForm" >
+              <input class="feedback" id="name_id" type="text" name="Name" placeholder="Ваше ім'я">
               <p id="error_name" class="form-error"></p>
-              <input class="feedback" type="text" name="Email" onblur="validateForm(this); buttonDisabled();" onkeyup="validateDelay(this)" placeholder="Електронна пошта">
+              <input class="feedback" type="text" name="Email" placeholder="Електронна пошта">
               <p id="error_email" class="form-error"></p>
-              <input class="feedback" type="text" name="Phone" onblur="validateForm(this); buttonDisabled();" onkeyup="validateDelay(this)" placeholder="Номер телефону">
+              <input class="feedback" type="text" name="Phone" placeholder="Номер телефону">
               <p id="error_phone" class="form-error"></p>
               <label for="mess" class="feedback">Ваше повідомлення:</label>
-              <textarea id="mess" class="feedback" name="Message" onblur="validateForm(this); buttonDisabled();" onkeyup="validateDelay(this); buttonDisabled();" rows="5"></textarea>
+              <textarea id="mess" class="feedback" name="Message" rows="5"></textarea>
               <p id="error_message" class="form-error"> </p>
-              <button type="submit" onmouseover="buttonDisabled();" class="g-rounded-50 send_mess float-right">
+              <button type="submit" class="g-rounded-50 send_mess float-right">
                 Надіслати
-                <span class="align-middle u-icon-v3 g-width-16 g-height-16 g-color-black g-brd-yellow g-font-size-11 rounded-circle ml-3">
-                  <i class="fa fa-angle-right"></i>
-                </span>
               </button>
             </form>
           </div>
@@ -80,13 +77,8 @@
   <!-- End Footer -->
 
   <!-- SCRIPTS -->
-<<<<<<< HEAD
-  <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
-  <script type="text/javascript" src="contacts.js"></script>
-=======
   <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
-  <script type="text/javascript" src="./js/contacts.js"></script>
->>>>>>> refs/remotes/origin/master
+  <script type="text/javascript" src="contacts.js"></script>
   <script type="text/javascript" src="../js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="../js/mdb.min.js"></script>
