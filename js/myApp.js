@@ -20,7 +20,7 @@ const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
 	$('#courses-index').load(serverURL + 'courses/courses_index.html');
 
 	// kids_room
-	// $('#kids_room').load(serverURL + '..kids_room/kids_room_index.html');
+	$('#kids_room').load(serverURL + 'kids_room/kids_room_index.html');
 
 	// add footer
 	$('#footer-for-all-website-id').load(serverURL + 'footer/footer.html');
