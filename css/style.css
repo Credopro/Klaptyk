@@ -1,10 +1,11 @@
 @import url('core.css');
 @import url('fonts.css');
 /*@import url('../gallery/gallery.css');*/
-/*@import url('gallery.css');  */
+/*@import url('gallery.css');*/
 @import url('../contacts/contacts.css');
 @import url('../coworking/coworking.css');
 @import url('../header/header-top.css');
+
 
 
 /*section courses */
@@ -81,14 +82,21 @@ footer.page-footer {
 {
   padding: 20px;
 }
-
-.carousel_text_collor
+.some
 {
-    color: var(--main-brown-color);}
-.carousel_back_collor
-{
-    background-color:  var(--main-ivory-color-clear);
-    padding: 2px;
+  position: absolute;
+  width: calc(100% - 110px);
+  height: calc(100% - 110px);
+  left: 55px;
+  top: 55px;
+  text-align: center;
+  padding-top: 220px;
+  border: 1px solid #fff;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
 }
 /* *** End Carousel *** */
 

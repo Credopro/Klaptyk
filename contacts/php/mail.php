@@ -12,18 +12,15 @@ $mail->Host = 'smtp.gmail.com';
 $mail->Port       = 587;
 $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth   = true;
-$mail->Username = 'klaptyk.if@gmail.com';
+$mail->Username = '';
 $mail->Password = '';
 
 $mail->CharSet = 'UTF-8';
-<<<<<<< HEAD
-$mail->SetFrom('klaptyk.if@gmail.com');
-$mail->FromName = "$name"; // имя отправителя
-=======
 $mail->SetFrom('');
-$mail->FromName = "$name";
->>>>>>> refs/remotes/origin/master
+$mail->FromName = "$name"; // имя отправителя
 $mail->addAddress('');
+//$mail->SMTPDebug  = 3;
+//$mail->Debugoutput = function($str, $level) {echo "debug level $level; message: $str";}; //$mail->Debugoutput = 'echo';
 $mail->IsHTML(true);
 
 $mail->Subject = 'Клаптик';
