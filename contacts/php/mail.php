@@ -17,10 +17,8 @@ $mail->Password = '';
 
 $mail->CharSet = 'UTF-8';
 $mail->SetFrom('');
-$mail->FromName = "$name"; // имя отправителя
+$mail->FromName = "$name";
 $mail->addAddress('');
-//$mail->SMTPDebug  = 3;
-//$mail->Debugoutput = function($str, $level) {echo "debug level $level; message: $str";}; //$mail->Debugoutput = 'echo';
 $mail->IsHTML(true);
 
 $mail->Subject = 'Клаптик';

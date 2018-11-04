@@ -81,7 +81,7 @@ $(function(){
         processData: false, 
         data: fd,
         beforeSend:function(){
-          $("button").html('<p class="loadAnime"><span class=""></span></p>');
+          $("button").html('<p class="loadAnime"><span></span></p>');
         },
         success: function(msg){
           if(msg == 'ok') {

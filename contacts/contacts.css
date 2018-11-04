@@ -59,11 +59,11 @@ form .feedback:focus{
   background: var(--main-ivory-color);
   box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
 }
-@-ms-keyframes spin {
+@-ms-keyframes roll {
   from { -ms-transform: rotate(0deg); }
   to { -ms-transform: rotate(360deg); }
 }
-@keyframes spin {
+@keyframes roll {
   from { transform:rotate(0deg); }
   to { transform:rotate(360deg); }
 }
@@ -83,7 +83,7 @@ form .feedback:focus{
 	border-bottom-color: #555; 
 	border-radius: 100%; 
  -ms-animation: spin 600ms infinite linear;
-	animation: spin 600ms infinite linear;
+	animation: roll 600ms infinite linear;
 }
 
 .form-error{
