@@ -1,72 +1,75 @@
-function delayFunc(f, ms){
-    return function() {
-      setTimeout(() => f.apply(this, arguments), ms)
+
+const regExp={
+    Name : /^[А-яA-z]{1,15}-{0,1}[А-яA-z]{1,15}$/,
+    Phone : /^\d{3,3}-{0,1}\d{3,3}-{0,1}\d{2,2}-{0,1}\d{2,2}$/,
+    Email : /^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+\.[a-z]{2,6}$/
+};
+const errMess={
+    notName : 'Введіть ім\'я',
+    badName : 'Не правильно ведено ім\'я',
+    notEmail : 'Введіть email',
+    badEmail : 'Не правильно ведено email',
+    notPhone : 'Введіть № телефону',
+    badPhone : 'Не коректне введення: 000-000-00-00'
+};
+
+function debounce(f, ms) {
+    let timer = null;
+    return function (...args) {
+      const onComplete = () => {
+        f.apply(this, args);
+        timer = null;
+      }
+      if (timer) {
+        clearTimeout(timer);
+      }
+      timer = setTimeout(onComplete, ms);
+    };
+};
+
+function errorMessages(formElement, adWord = null){
+    let errorElement = formElement.nextElementSibling;
+    if(adWord === null){
+        this.className ='feedback';
+        errorElement.className = 'form-error';
+        errorElement.innerHTML = '';
+    } else {
+        this.className ='feedback invalid';
+        errorElement.className = 'form-error invalid';
+        errorElement.innerHTML = errMess[adWord+formElement.name];
     }
-}
+};
 
 function validateForm(formElement){
-    let regExp={
-        Name : /^[А-яA-z]{1,15}-{0,1}[А-яA-z]{1,15}$/,
-        Phone : /^\d{3,3}-{0,1}\d{3,3}-{0,1}\d{2,2}-{0,1}\d{2,2}$/,
-        Email : /^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+\.[a-z]{2,6}$/,
-        Message : /[^<]/
-    };
-    let errMess={
-        notName : 'Введіть ім\'я',
-        badName : 'Не правильно ведено ім\'я',
-        notEmail : 'Введіть email',
-        badEmail : 'Не правильно ведено email',
-        notPhone : 'Введіть № телефону',
-        badPhone : 'Не коректне введення: 000-000-00-00',
-        notMessage : 'Введіть текст',
-        badMessage : 'Заборонений символ'
-    };
-    let error_mess='';
     let regularExp = regExp[formElement.name];
-        if(formElement.value ==''){
-            error_mess = errMess['not'+formElement.name];
-            formElement.nextElementSibling.style.display='inline-block';
-            formElement.nextElementSibling.innerHTML = error_mess;
-            formElement.style.border = "1px solid red";
-            return false;
-        }
-        else if (!regularExp.test(formElement.value)){
-            error_mess = errMess['bad'+formElement.name];
-            formElement.nextElementSibling.style.display='inline-block';
-            formElement.nextElementSibling.innerHTML = error_mess;
-            formElement.style.border = "1px solid red";
-            return false;
-        }
-        else{
-            formElement.nextElementSibling.innerHTML = '';
-            formElement.nextElementSibling.style.display='none';
-            formElement.style.border = "none";
-            formElement.style.borderBottom = "1px dotted #000";
-            return true;
-        }
+    if(formElement.value.length === 0){
+        errorMessages(formElement, 'not');
+        return false;
     }
-let validateDelay = delayFunc(validateForm, 1000);
+    else if (!regularExp.test(formElement.value)){
+        errorMessages(formElement, 'bad');
+        return false;
+    }
+    else{
+        errorMessages(formElement);
+        return true;
+    }
+};
 
-function buttonDisabled(){
-    let formElem = document.getElementById('contForm');
-    if(formElem[0].value !== '' && formElem[1].value !== '' && formElem[2].value !== '' && formElem[3].value !== '') formElem[4].removeAttribute("disabled");
-    else formElem[4].setAttribute("disabled", "true");
-}
-function formSubmission(data) {
-    let i=0;
-    let logicArr = [];
-    while(i < data.length-1){
-        if (!validateForm(data[i])) logicArr.push(false);
-        i++;
-    }
-    console.log(logicArr);
-    debugger;
-    if(logicArr.length > 0) return false;
-    else return true;
-}
+const form = document.getElementById('contForm');
+const validateDelay = debounce(validateForm, 1000);
+form[0].addEventListener("input", function(){validateDelay(form[0])});
+form[1].addEventListener("input", function (){validateForm(form[1]);},false);
+form[2].addEventListener("input", function (){validateForm(form[2]);},false);
+form.addEventListener("submit", 
+    function (event){ if (validateForm(form[0])
+    && validateForm(form[1])
+    && validateForm(form[2])) {}
+    else {event.preventDefault()};
+}, false);
 
 /*request*/
- $(function(){
+$(function(){
   'use strict';
     $('#contForm').on('submit', function(e){ 
       e.preventDefault();
@@ -77,6 +80,9 @@ function formSubmission(data) {
         contentType: false, 
         processData: false, 
         data: fd,
+        beforeSend:function(){
+          $("button").html('<p class="loadAnime"><span class=""></span></p>');
+        },
         success: function(msg){
           if(msg == 'ok') {
             $("button").html("Відправлено");
@@ -91,4 +97,3 @@ function formSubmission(data) {
       });
     });
 });
-
