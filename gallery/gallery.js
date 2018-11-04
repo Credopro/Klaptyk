@@ -1,6 +1,9 @@
 function fillGallery() {
     var path = location.pathname.substring(1);
-    path = [path.replace(/.html/g,'')];
+    path = path.substring(path.lastIndexOf('/')+1,path.length);
+
+    path = [path.replace('.html','')];
+
     var arrObjects = []; // объявление массива
     $.get("Controller.php", { query:path }, function(data){
         arrObjects = JSON.parse(data);
@@ -36,6 +39,8 @@ function shortLink() {
         $_GET[decode(arguments[1])] = decode(arguments[2]);
     });
     var path = [location.pathname.substring(1), $_GET['id']];
+    // path = [path.replace('gallery','')];
+
     return path;
 }
 function fillImages(){
