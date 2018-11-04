@@ -3,8 +3,8 @@
 @import url('../contacts/contacts.css');
 @import url('../coworking/coworking.css');
 @import url('../header/header-top.css');
-
-
+@import url('../gallery/gallery.css');
+@import url('gallery.css');
 
 /*section courses */
 

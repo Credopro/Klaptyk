@@ -12,11 +12,11 @@ $mail->Host = 'smtp.gmail.com';
 $mail->Port       = 587;
 $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth   = true;
-$mail->Username = '';
+$mail->Username = 'klaptyk.if@gmail.com';
 $mail->Password = '';
 
 $mail->CharSet = 'UTF-8';
-$mail->SetFrom('');
+$mail->SetFrom('klaptyk.if@gmail.com');
 $mail->FromName = "$name"; // имя отправителя
 $mail->addAddress('');
 //$mail->SMTPDebug  = 3;
