@@ -37,8 +37,14 @@ const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
 	});
 
 	// class active
+
+	$(".nav a").on("click", function(){
+		$(".nav").find(".active").removeClass("active");
+		$(this).parent().addClass("active");
+	});
+
 	// var url = window.location.href.substr( window.location.href.lastIndexOf( '/' ) + 1 );
-	// $( '.navbar-nav a' ).each( function () {
+	// $( '.navbar-nav li' ).each( function () {
 	// 	if( $( this ).attr( 'href' ) === url || $( this ).attr( 'href' ) === '' ) {
 	// 		$( this ).parent( 'li' ).addClass( 'active' );
 	// 	}
