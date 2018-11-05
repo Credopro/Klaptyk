@@ -9,16 +9,15 @@ header{
 	-webkit-background-size: cover;
 }
 
-#top-nav-for-all-website-id,
-#about-us,
-.top-index{
+#top-for-all-website-id,
+#about-us{
 	padding: 20px 5%;
 }
 
 
 .clear{
 	background-color: var(--main-ivory-color-clear);
-	margin:0 5%;
+	margin: 0 5%;
 }
 
 .logo{

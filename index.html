@@ -15,7 +15,7 @@
 	<link href="css/unify-components.css" rel="stylesheet">
 	<link href="css/unify-globals.css" rel="stylesheet">
 	<!-- Font Awesome -->
-	<link rel="stylesheet" type="text/css" href="font/fontawesome-free-5.5.0-web/css/all.css">
+	<link rel="stylesheet" type="text/css" href="style\fontawesome-free-5.3.1-web\css\all.css">
 	<!-- Your custom styles (optional) -->
 	<link href="css/style.css" rel="stylesheet">
 </head>
@@ -26,56 +26,10 @@
 <header>
 	<div class="conteiner clear">
 		<!--top nav-->
-		<div class="top-index">
-			<div class="row d-flex align-items-center justify-content-between">
-				<div class="col-md-6">
-					<a class="logo-text" href="index.html">Творча майстерня & Швейний коворкінг</a>
-				</div>
-				<div class="col-md-6 d-flex justify-content-around">
-					<a href="tel:+380509921072"><i class="fas fa-mobile-alt"></i>+38050992107</a>
-				</div>
-			</div><!--/row top-->
-			<!-- Navbar  -->
-			<nav class="navbar nav-pills nav-fill navbar-expand-lg navbar-light  scrolling-navbar">
-				<!-- Navbar brand -->
-				<a class="navbar-brand" href="index.html"><img class="logo" src="klaptykk.png" alt="Logo"></a>
-				<!-- Collapse button -->
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-								aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<!-- Collapsible content -->
-				<div class="collapse navbar-collapse " id="basicExampleNav">
-					<!-- Links -->
-					<ul class="navbar-nav mr-auto smooth-scroll">
-						<li class="nav-item active">
-							<a class="nav-link waves-effect waves-light" href="index.html">Головна
-								<span class="sr-only">(current)</span>
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link waves-effect waves-light" href="coworking/coworking.html">Коворкінг</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link waves-effect waves-light" href="courses/courses.html">Курси</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link waves-effect waves-light" href="gallery/gallery.html">Галерея</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link waves-effect waves-light" href="kids_room/kids_room.html">Дитяча кімната</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link waves-effect waves-light" href="contacts/contacts.html">Контакти</a>
-						</li>
-					</ul>
-					<!-- /Links -->
-				</div><!-- /Collapsible content -->
-			</nav>  <!-- /Navbar  -->
-		</div><!-- /top-nav-for-all-website-id-->
+		<div id="top-for-all-website-id"></div>
 		<!--/top nav-->
 		<!--about-us-->
-		<div id="about-us" class="row "></div>
+		<div id="about-us"></div>
 		<!--/about-us-->
 	</div>  <!--/conteiner clear-->
 </header>
@@ -86,16 +40,19 @@
 <!--/Coworking Sasha Pazyuk -->
 
 <!--Courses Volodya Dzyoba-->
-<section id="courses-index" class="g-pt-100 g-pb-100 border-for-section"></section>
+<section id="courses-index" class="g-pt-100 g-pb-100 border-for-section">
+	
+</section>
 <!--/Courses Volodya Dzyoba-->
 
 <!--Kids_room Volodya Hundyak-->
-<div id="kids_room"></div>
+<div id="kids_room">
+
+</div>
 <!--/Kids_room Volodya Hundyak-->
 
-
-<!--roundabout  Khomyn Dmytro-->
-<section id="gallery" class=" border-for-section">
+<!--Coursel  Khomyn Dmytro-->
+<section class=" border-for-section">
 	<div class="sizeCarousel container">
 		<!--Carousel Wrapper-->
 		<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel" style="width: 100%">
@@ -167,41 +124,14 @@
 		<!--/.Carousel Wrapper-->
 	</div>
 </section>
-<!-- / roundabout  Khomyn Dmytro-->
+
+<!-- / Coursel  Khomyn Dmytro-->
 
 <!-- Footer  Vova Dzoba-->
-<footer class=" conteiner page-footer font-small p-3">
-	<div class="conteiner">
-		<div class="footer-menu text-center font-weight-bold mt-3">
-			<a href="index.html"><img class="logo" src="klaptykk.png" alt="Logo"></a>
-			<a href="coworking/coworking.html">Коворкінг</a>
-			<a href="courses/courses.html">Курси</a>
-			<a href="gallery/gallery.html">Галерея</a>
-			<a href="kids_room/kids_room.html">Дитяча кімната</a>
-			<a href="contacts/contacts.html">Контакти</a>
-		</div>
-	</div>
-	<div class="conteiner">
-		<div class="footer-addres p-3 text-center font-weight-bold">
-			<a href="mailto:klaptyk.if@gmail.com"><i class="fas fa-envelope ml-3"></i> klaptyk.if@gmail.com</a>
-			<a href="tel:+380509921072"><i class="fa fa-mobile-alt ml-3"></i>+38050992107</a>
-			<div class="d-inline ml-5">
-				<a href="https://www.facebook.com/klaptykIF"><i class="fab fa-facebook-f fa-lg mr-3"></i>
-				</a>
-				<a href="https://www.instagram.com/klaptyk_kovorking/"><i class="fab fa-instagram fa-lg"></i></a>
-			</div>
-		</div>
+<footer id="footer-for-all-website-id" class=" conteiner page-footer font-small p-3">
 
-	</div>
-	<div class="conteiner">
-		<div class="footer-copy pt-2 text-center">
-			<p>
-				© Copyright 2018 - всі права захищенні
-			</p>
-		</div>
-	</div>
 </footer>
-<!-- /Footer -->
+<!-- End Footer -->
 
 <!-- SCRIPTS -->
 <!-- JQuery -->
@@ -213,8 +143,8 @@
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="js/mdb.min.js"></script>
 <script type="text/javascript" src="js/myApp.js"></script>
-<script type="text/javascript" src="header/topNav.js"></script>
-<script type="text/javascript" src="js/fontawesome.min.js"></script>
+<script type="text/javascript" src="header/top.js"></script>
+<script type="text/javascript" src="js/fontawesome-free-5.4.2-web-all.min.js"></script>
 </body>
 
 </html>
