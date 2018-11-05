@@ -63,6 +63,12 @@ const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
 			case '/gallery/gallery.html':
 				$('#menu-gallery-id').addClass('active');
 				break;
+			case '/kids_room/kids_room.html':
+				$('#menu-kids_room-id').addClass('active');
+				break;
+			case '/contacts/contacts.html':
+				$('#menu-contacts-id').addClass('active');
+				break;
 		}
 	}
 
