@@ -23,7 +23,7 @@ const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
 	$('#courses-index').load(serverURL + 'courses/courses_index.html');
 
 	// kids_room
-	// $('#kids_room').load(serverURL + '..kids_room/kids_room_index.html');
+	$('#kids_room').load(serverURL + '..kids_room/kids_room_index.html');
 
 	// add footer
 	$('#footer-for-all-website-id').load(serverURL + 'footer/footer.html');
@@ -40,23 +40,22 @@ const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
 	});
 
 	// set active menu
-	function setActiveMenu()
-	{
+	function setActiveMenu() {
 		//console.log('uri', window.location.pathname);
 		switch (window.location.pathname) {
 			case '/index.html':
 				$('#menu-index-id').addClass('active');
 				break;
-			case '/coworking/coworking.html':
+			case './coworking/coworking.html':
 				$('#menu-coworking-id').addClass('active');
 				break;
-			case '/courses/courses.html':
+			case './courses/courses.html':
 				$('#menu-courses-id').addClass('active');
 				break;
-			case '/gallery/gallery.html':
+			case './gallery/gallery.html':
 				$('#menu-gallery-id').addClass('active');
 				break;
-			case '/kids_room/kids_room.html':
+			case './kids_room/kids_room.html':
 				$('#menu-kids_room-id').addClass('active');
 				break;
 			case '/contacts/contacts.html':
