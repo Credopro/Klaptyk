@@ -4,7 +4,6 @@ $(document).ready(function () {
 const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
 // const serverURL = 'http://klaptyk/';
 
-
 	// debugger;
 
 	 // add header
