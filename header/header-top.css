@@ -1,0 +1,61 @@
+
+/*heder nav Yaroslav*/
+
+/*header*/
+header{
+	color: var(--main-brown-color);
+	background: url(../img/bg/bg2.png) no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+}
+
+#top-nav-for-all-website-id,
+#about-us,
+.top-index,
+.row{
+	padding: 20px 9%;
+}
+
+
+.clear{
+	background-color: var(--main-ivory-color-clear);
+	margin:0 5%;
+}
+
+.logo{
+	width: 90px;
+}
+.logo:hover{
+	transform: rotate(-10deg);
+	transition: 0.1s;
+}
+.logo-text{
+	font-family: "SegoePrint", Helvetica, Arial, sans-serif;
+}
+
+a{
+	color: var(--main-brown-color);
+	font-weight: 600;
+}
+a:hover{
+	color: #ffa000;
+}
+.fa-mobile-alt{
+	margin-right: 10px;
+}
+.fa-mobile-alt:hover{
+	transform: rotate(360deg);
+	transition: 0.9s;
+}
+
+/*navbar*/
+
+.fixed-top{
+	margin: 0 9%;
+	background-color: rgba(255, 255, 240, 0.9);
+
+}
+
+/*/navbar*/
+
+/* / heder nav Yaroslav*/

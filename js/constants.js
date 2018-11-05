@@ -1,0 +1,4 @@
+const TEXT = {
+    title: 'Logo'
+}
+
