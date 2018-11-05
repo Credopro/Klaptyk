@@ -27,7 +27,7 @@ div.card {
 	border: 1px solid var(--main-brown-color);
 	background-color: var(--main-ivory-color);
 }
-
+/* *** End Carousel *** */
 
 footer.page-footer a {
 	color: #F4F2C1;
@@ -53,21 +53,6 @@ footer.page-footer {
 }
 
 
-#DR1{
-  text-align:center;
-  line-height: 50px;
-  font-weight:bolder;
-  font-size:30px;
-}
-#DR2{
-   text-align:center;
-   font-weight:bolder;
-   font-size:20px;
- }
-#DR3{
-  text-align:center;
-  font-size:20px;
-}
 #pic {
   float: left;
 
@@ -77,16 +62,18 @@ footer.page-footer {
 }
 
 /* *** Start Carousel *** */
-.sizeCarousel
-{
+.carousel-indicators {
+	top: 20px !important;
+}
+.sizeCarousel{
   padding: 20px;
 }
 
-.carousel_text_collor
-{
-    color: var(--main-brown-color);}
-.carousel_back_collor
-{
+.carousel_text_collor {
+    color: var(--main-brown-color);
+}
+
+.carousel_back_collor {
     background-color:  var(--main-ivory-color-clear);
     padding: 2px;
 }
@@ -103,6 +90,7 @@ footer.page-footer {
     }
 
 }
+
 @media only screen and (max-width: 420px) {
 
     .carousel_text_collor
@@ -116,7 +104,22 @@ footer.page-footer {
     }
 
 }
-/* *** End Carousel *** */
+
+@media only screen and (max-width: 320px) {
+
+	.carousel_text_collor
+	{
+		font-size: 9px;
+	}
+	.carousel_back_collor
+	{
+		width: 200px;
+
+	}
+
+}
+
+
 
 
 
