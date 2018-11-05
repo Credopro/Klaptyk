@@ -81,17 +81,17 @@ $(function(){
         processData: false, 
         data: fd,
         beforeSend:function(){
-          $("button").html('<p class="loadAnime"><span class=""></span></p>');
+          $(".send_mess").html('<p class="loadAnime"><span></span></p>');
         },
         success: function(msg){
           if(msg == 'ok') {
             $("button").html("Відправлено");
             $("input").val("");
             $("textarea").val("");
-            setTimeout(function() {$("button").html("Надіслати");}, 3000);
+            setTimeout(function() {$(".send_mess").html("Надіслати");}, 3000);
           } else {
-            $("button").html("Помилка");
-            setTimeout(function() {$("button").html("Надіслати");}, 3000);
+            $(".send_mess").html("Помилка");
+            setTimeout(function() {$(".send_mess").html("Надіслати");}, 3000);
           }
         }
       });

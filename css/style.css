@@ -1,9 +1,10 @@
 @import url('core.css');
 @import url('fonts.css');
+/*@import url('../gallery/gallery.css');*/
+/*@import url('gallery.css');*/
 @import url('../contacts/contacts.css');
 @import url('../coworking/coworking.css');
 @import url('../header/header-top.css');
-
 
 
 /*section courses */
@@ -95,7 +96,6 @@ footer.page-footer {
     {
         font-size: 11px;
     }
-       Ї
     .carousel_back_collor
     {
       width: 300px;
@@ -109,7 +109,6 @@ footer.page-footer {
     {
         font-size: 11px;
     }
-    Ї
     .carousel_back_collor
     {
         width: 250px;

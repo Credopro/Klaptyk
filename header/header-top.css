@@ -8,10 +8,11 @@ header{
 	background-size: cover;
 	-webkit-background-size: cover;
 }
-
-#top-for-all-website-id,
-#about-us{
-	padding: 20px 5%;
+#top-nav-for-all-website-id,
+#about-us,
+.top-index,
+.row{
+	padding: 20px 9%;
 }
 
 
