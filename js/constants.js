@@ -1,4 +1,0 @@
-const TEXT = {
-    title: 'Logo'
-}
-
