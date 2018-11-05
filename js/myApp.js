@@ -1,13 +1,17 @@
 // Start using JQuery
 $(document).ready(function () {
 
+	setActiveMenu();
+
 const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
 // const serverURL = 'http://klaptyk/';
 
 	// debugger;
 
 	 // add header
-	$('#top-nav-for-all-website-id').load(serverURL + 'header/topNav.html');
+	$('#top-nav-for-all-website-id').load(serverURL + 'header/topNav.html', function() {
+		setActiveMenu();
+	});
 
 	// aboutus
 	$('#about-us').load(serverURL + 'header/about.html');
@@ -42,13 +46,24 @@ const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
 		$(this).parent().addClass("active");
 	});
 
-	// var url = window.location.href.substr( window.location.href.lastIndexOf( '/' ) + 1 );
-	// $( '.navbar-nav li' ).each( function () {
-	// 	if( $( this ).attr( 'href' ) === url || $( this ).attr( 'href' ) === '' ) {
-	// 		$( this ).parent( 'li' ).addClass( 'active' );
-	// 	}
-	// });
-
-
+	// set active menu
+	function setActiveMenu()
+	{
+		//console.log('uri', window.location.pathname);
+		switch (window.location.pathname) {
+			case '/index.html':
+				$('#menu-index-id').addClass('active');
+				break;
+			case '/coworking/coworking.html':
+				$('#menu-coworking-id').addClass('active');
+				break;
+			case '/courses/courses.html':
+				$('#menu-courses-id').addClass('active');
+				break;
+			case '/gallery/gallery.html':
+				$('#menu-gallery-id').addClass('active');
+				break;
+		}
+	}
 
 });
