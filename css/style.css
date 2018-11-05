@@ -90,6 +90,32 @@ footer.page-footer {
     background-color:  var(--main-ivory-color-clear);
     padding: 2px;
 }
+@media only screen and (max-width: 560px) {
+
+    .carousel_text_collor
+    {
+        font-size: 11px;
+    }
+    .carousel_back_collor
+    {
+      width: 300px;
+           height: 50px;
+    }
+
+}
+@media only screen and (max-width: 420px) {
+
+    .carousel_text_collor
+    {
+        font-size: 11px;
+    }
+    .carousel_back_collor
+    {
+        width: 250px;
+        height: 25px;
+    }
+
+}
 /* *** End Carousel *** */
 
 

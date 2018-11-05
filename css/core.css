@@ -10,7 +10,7 @@
 
 	--main-ivory-color: #FFFFF0;
 	--main-ivory-color-clear: rgba(255, 255, 240, 0.9);
-	/* color: var(--main-brown-color);*/
+	/* var(--main-ivory-color-clear);*/
 }
 
 body{

@@ -8,7 +8,6 @@ header{
 	background-size: cover;
 	-webkit-background-size: cover;
 }
-
 #top-nav-for-all-website-id,
 #about-us,
 .top-index,
@@ -19,7 +18,7 @@ header{
 
 .clear{
 	background-color: var(--main-ivory-color-clear);
-	margin:0 5%;
+	margin: 0 5%;
 }
 
 .logo{
