@@ -24,8 +24,9 @@ div.card {
 }
 
 .introbgr, div.plans {
-	border: 1px solid var(--main-brown-color);
-	background-color: var(--main-ivory-color);
+	border: 2px solid var(--main-brown-color);
+    background-color: var(--main-ivory-color);
+    margin: 5%;
 }
 /* *** End Carousel *** */
 
@@ -39,7 +40,7 @@ p.text-size,li {
 	font-weight: 400;
 }
 
-.border-for-section{
+section.border-for-section, div.border-for-section{
     background-color: var(--main-ivory-color);
     color: var(--main-brown-color);
     border: 2px solid var(--main-brown-color);
