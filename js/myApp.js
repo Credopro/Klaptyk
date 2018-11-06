@@ -47,7 +47,8 @@ const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
 				$('#menu-index-id').addClass('active');
 				break;
 			case 'coworking/coworking.html':
-				$('#menu-coworking-id').addClass('active');
+				// $('#menu-coworking-id').addClass('active');
+				$('#menu-coworking-id').addhtml('Hello');
 				break;
 			case 'courses/courses.html':
 				$('#menu-courses-id').addClass('active');
