@@ -28,7 +28,7 @@ div.card {
     background-color: var(--main-ivory-color);
     margin: 5%;
 }
-/* *** End Carousel *** */
+
 
 footer.page-footer a {
 	color: #F4F2C1;
@@ -73,8 +73,15 @@ footer.page-footer {
 .carousel_text_collor {
     color: var(--main-brown-color);
 }
-
+.carousel-caption
+{
+    right: 0!important;
+    left:0!important;
+    bottom: 0!important;
+    padding-bottom: 0!important;
+}
 .carousel_back_collor {
+    bottom: 0;
     background-color:  var(--main-ivory-color-clear);
     padding: 2px;
 }
@@ -86,40 +93,19 @@ footer.page-footer {
     }
     .carousel_back_collor
     {
-      width: 300px;
-           height: 50px;
+        height: 35px;
     }
 
 }
-
-@media only screen and (max-width: 420px) {
-
-    .carousel_text_collor
-    {
-        font-size: 11px;
-    }
-    .carousel_back_collor
-    {
-        width: 250px;
-        height: 25px;
-    }
-
-}
-
 @media only screen and (max-width: 320px) {
 
 	.carousel_text_collor
 	{
 		font-size: 9px;
 	}
-	.carousel_back_collor
-	{
-		width: 200px;
-
-	}
 
 }
-
+/* *** End Carousel *** */
 
 
 
