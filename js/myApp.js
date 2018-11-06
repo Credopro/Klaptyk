@@ -41,23 +41,29 @@ const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
 
 	// set active menu
 	function setActiveMenu() {
-		console.log('uri', window.location.pathname);
+		// console.log('uri', window.location.pathname);
 		switch (window.location.pathname) {
 			case '/index.html':
 				$('#menu-index-id').addClass('active');
 				break;
+			case '/Klaptyk/coworking/coworking.html':
 			case '/coworking/coworking.html':
 				$('#menu-coworking-id').addClass('active');
 				break;
+
+			case '/Klaptyk/courses/courses.html':
 			case '/courses/courses.html':
 				$('#menu-courses-id').addClass('active');
 				break;
+			case '/Klaptyk/gallery/gallery.html':
 			case '/gallery/gallery.html':
 				$('#menu-gallery-id').addClass('active');
 				break;
-			case '/kids_room/kids_room.html':
+			case '/Klaptyk/kids-room/kids_room.html':
+			case 'kids_room/kids-room.html':
 				$('#menu-kids-room-id').addClass('active');
 				break;
+			case '/Klaptyk/contacts/contacts.html':
 			case '/contacts/contacts.html':
 				$('#menu-contacts-id').addClass('active');
 				break;
