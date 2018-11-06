@@ -3,8 +3,8 @@ $(document).ready(function () {
 
 	setActiveMenu();
 
-const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
-// const serverURL = 'http://klaptyk/';
+// const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
+const serverURL = 'http://klaptyk/';
 
 	// debugger;
 
@@ -41,7 +41,7 @@ const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
 
 	// set active menu
 	function setActiveMenu() {
-		//console.log('uri', window.location.pathname);
+		console.log('uri', window.location.pathname);
 		switch (window.location.pathname) {
 			case '/index.html':
 				$('#menu-index-id').addClass('active');
@@ -56,7 +56,7 @@ const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
 				$('#menu-gallery-id').addClass('active');
 				break;
 			case '/kids_room/kids_room.html':
-				$('#menu-kids_room-id').addClass('active');
+				$('#menu-kids-room-id').addClass('active');
 				break;
 			case '/contacts/contacts.html':
 				$('#menu-contacts-id').addClass('active');
