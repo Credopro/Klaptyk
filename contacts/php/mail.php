@@ -16,13 +16,8 @@ $mail->Username = 'klaptyk.if@gmail.com';
 $mail->Password = '';
 
 $mail->CharSet = 'UTF-8';
-<<<<<<< HEAD
 $mail->SetFrom('klaptyk.if@gmail.com');
 $mail->FromName = "$name"; // имя отправителя
-=======
-$mail->SetFrom('');
-$mail->FromName = "$name";
->>>>>>> refs/remotes/origin/master
 $mail->addAddress('');
 $mail->IsHTML(true);
 

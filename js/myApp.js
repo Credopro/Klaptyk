@@ -3,13 +3,13 @@ $(document).ready(function () {
 
 	setActiveMenu();
 
-const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
-// const serverURL = 'http://klaptyk/';
+	const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
+	//const serverURL = 'http://klaptyk/';
 
 	// debugger;
 
-	 // add header
-	$('#top-nav-for-all-website-id').load(serverURL + 'header/topNav.html', function() {
+	// add header
+	$('#top-nav-for-all-website-id').load(serverURL + 'header/topNav.html', function () {
 		setActiveMenu();
 	});
 
