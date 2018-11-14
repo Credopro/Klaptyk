@@ -4,7 +4,7 @@ $(document).ready(function () {
 	setActiveMenu();
 
 	const serverURL = 'https://jaroslav-credopro.github.io/Klaptyk/';
-	//const serverURL = 'http://klaptyk/';
+	// const serverURL = 'http://klaptyk/';
 
 	// debugger;
 
