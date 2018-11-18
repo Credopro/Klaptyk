@@ -7,6 +7,12 @@
 @import url('../header/header-top.css');
 
 
+
+/*about contacts*/
+.indent{
+	padding-left: 3%;
+}
+
 /*section courses */
 
 html, body, #intro {

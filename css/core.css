@@ -19,4 +19,6 @@ body{
 	position: relative;
 }
 
-
+.a-Bord-b{
+	border-bottom: 1px dashed var(--main-brown-color);
+}
