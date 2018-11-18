@@ -6,9 +6,9 @@ const regExp={
 };
 const errMess={
     notName : 'Введіть ім\'я',
-    badName : 'Не правильно ведено ім\'я',
+    badName : 'Не правильно введено ім\'я',
     notEmail : 'Введіть email',
-    badEmail : 'Не правильно ведено email',
+    badEmail : 'Не правильно введено email',
     notPhone : 'Введіть № телефону',
     badPhone : 'Не коректне введення: 000-000-00-00'
 };
