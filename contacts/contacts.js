@@ -30,11 +30,11 @@ function debounce(f, ms) {
 function errorMessages(formElement, adWord = null){
     let errorElement = formElement.nextElementSibling;
     if(adWord === null){
-        this.className ='feedback';
+        formElement.className ='feedback';
         errorElement.className = 'form-error';
         errorElement.innerHTML = '';
     } else {
-        this.className ='feedback invalid';
+        formElement.className ='feedback invalid';
         errorElement.className = 'form-error invalid';
         errorElement.innerHTML = errMess[adWord+formElement.name];
     }
