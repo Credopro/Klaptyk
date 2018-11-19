@@ -10,7 +10,6 @@ function fillGallery() {
         var doc = document.getElementById("galleryContainer");
         var j = 1;
         for (var i = 0; i < arrObjects.length; i++) {
-
             var text = "<div class=\"animated fadeIn mix single-portfolio set-bg wedding g-brd-around--md g-brd-5 " +
                 "g-brd-brown rounded m-1\" data-setbg=\"img/portfolio/2.jpg\" " +
                 "style=\"background-image: url("+arrObjects[i]['image_path']+");\">\n" +
@@ -51,8 +50,7 @@ function fillImages(){
         arrObjects = JSON.parse(data);
         var doc = document.getElementById("imageContainer");
         for (var i = 0; i < arrObjects.length; i++) {
-            var text = "<div class=\"col-lg-3 col-md-4 col-xs-6\">\n" +
-                "        <a href=\"#\" class=\"d-block mb-4 h-100\">\n" +
+            var text = "<div class=\"col-sm-6 col-md-4 col-lg-3\">\n" +
                 "        <img class=\"img-fluid img-thumbnail\" src="+arrObjects[i]['image_path']+" alt=\"\">\n" +
                 "        </a>\n" +
                 "        </div>"

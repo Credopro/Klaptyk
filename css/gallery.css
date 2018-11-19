@@ -34,7 +34,7 @@ h5 {
 }
 
 p {
-    font-size: 14.2px;
+    font-size: 14px;
     color: #868686;
     line-height: 2.2;
 }
@@ -109,9 +109,8 @@ ol {
 }
 
 .set-bg {
-    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center 0;
+    background: no-repeat center 0;
 }
 
 /*------------------------
@@ -310,8 +309,8 @@ ol {
     }
     .worknav.wn-prev .wn-info,
     .worknav.wn-next .wn-info {
-        top: 0px;
-        margin-left: 0px;
+        top: 0;
+        margin-left: 0;
         margin-right: 0;
         text-align: center;
     }
@@ -388,8 +387,8 @@ ol {
     }
     .worknav.wn-prev .wn-info,
     .worknav.wn-next .wn-info {
-        top: 0px;
-        margin-left: 0px;
+        top: 0;
+        margin-left: 0;
         margin-right: 0;
         text-align: center;
     }
@@ -509,8 +508,8 @@ ol {
     }
     .worknav.wn-prev .wn-info,
     .worknav.wn-next .wn-info {
-        top: 0px;
-        margin-left: 0px;
+        top: 0;
+        margin-left: 0;
         margin-right: 0;
         text-align: center;
     }

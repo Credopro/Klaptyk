@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Галерея</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="../font/fontawesome-free-5.5.0-web/css/all.css">    <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="../css/mdb.min.css" rel="stylesheet">
@@ -14,22 +13,23 @@
     <!-- Styles for buttons and dual images -->
     <link href="../css/unify-components.css" rel="stylesheet">
     <link href="../css/unify-globals.css" rel="stylesheet">
-    <link href="css/courses.css" rel="stylesheet">
-    <link rel="import" href="header.html"> <!--імпорт header.html  -->
-    <script type="text/javascript" src="../js/constants.js"></script> <!--чому підключено тут -->
 </head>
 
 <body onload='fillImages();'>
 
+<header>
+    <div class="conteiner clear">
+        <!--top nav-->
+        <div id="top-nav-for-all-website-id"></div>
+        <!--/top nav-->
+    </div>  <!--/conteiner clear-->
+</header>
 <div class="container">
-
-    <div id="imageContainer" class="row text-center text-lg-left">
-
+    <div id="imageContainer" class="row">
     </div>
-
 </div>
 
-
+<footer id="footer-for-all-website-id" class="conteiner page-footer font-small p-3"></footer>
 <!-- SCRIPTS -->
 <!-- JQuery -->
 <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
@@ -40,5 +40,6 @@
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="../js/mdb.min.js"></script>
 <script type="text/javascript" src="gallery.js"></script>
+<script type="text/javascript" src="../js/myApp.js"></script>
 </body>
 </html>
