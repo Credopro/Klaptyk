@@ -1,0 +1,24 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--main-brown-color: #372018;
+
+	--main-yellow-color: #FCE43A;
+
+	--main-ivory-color: #FFFFF0;
+	--main-ivory-color-clear: rgba(255, 255, 240, 0.9);
+	/* var(--main-ivory-color-clear);*/
+}
+
+body{
+	font-size: 18px;
+	min-width: 320px;
+	position: relative;
+}
+
+.a-Bord-b{
+	border-bottom: 1px dashed var(--main-brown-color);
+}

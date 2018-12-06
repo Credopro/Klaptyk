@@ -1,0 +1,556 @@
+html,
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #222121;
+    margin: 0;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 14px;
+    color: #868686;
+    line-height: 2.2;
+}
+
+img {
+    max-width: 100%;
+}
+
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+    outline: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+/*---------------------
+	Helper CSS
+-----------------------*/
+.spad {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.sp-pad {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.sp-sub-title {
+    color: #868686;
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.sp-title {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+    letter-spacing: 6px;
+}
+
+.section-title h2 {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 110px;
+    padding-bottom: 2px;
+    line-height: normal;
+}
+
+.section-title h2:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background: #40424a;
+}
+
+.set-bg {
+    background-size: cover;
+    background: no-repeat center 0;
+}
+
+/*------------------------
+  Common Elements
+--------------------------*/
+
+
+/*---------------------
+	Portfolio section
+-----------------------*/
+.portfolio-warp {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.single-portfolio {
+    height: 580px;
+    width: 33.333333%;
+    position: relative;
+    float: left;
+    display: block;
+    background-position: center center;
+}
+
+.single-portfolio.sm-wide {
+    width: 22.222222%;
+}
+
+.single-portfolio:hover .portfolio-info {
+    opacity: 1;
+}
+
+.portfolio-info {
+    position: absolute;
+    width: calc(100% - 110px);
+    height: calc(100% - 110px);
+    left: 55px;
+    top: 55px;
+    text-align: center;
+    padding-top: 220px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.portfolio-info .pfbg {
+    position: absolute;
+    width: 110%;
+    height: 110%;
+    left: -5%;
+    top: -5%;
+    -webkit-transform: scale(1.12);
+    -ms-transform: scale(1.12);
+    transform: scale(1.12);
+    -webkit-filter: blur(20px);
+    filter: blur(20px);
+    background-position: center center;
+}
+
+.portfolio-info h5 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    z-index: 9;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.portfolio-info p {
+    font-size: 14px;
+    color: #fff;
+    z-index: 9;
+    position: relative;
+}
+
+.portfolio-filter {
+    list-style: none;
+}
+
+.portfolio-filter li {
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-right: 12px;
+    color: #868686;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.portfolio-filter li.mixitup-control-active {
+    color: #111;
+}
+
+
+
+
+
+
+
+
+
+/*---------------------
+	Responsive
+-----------------------*/
+@media only screen and (max-width: 1650px) {
+    .sp-pad {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    .hero-slider .owl-dots {
+        left: 90px;
+    }
+    .contact-text,
+    .services-text {
+        left: 80px;
+    }
+}
+
+@media only screen and (max-width: 1510px) {
+    .sp-pad {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .breadcrumb-area,
+    .hero-slider .owl-dots {
+        left: 30px;
+    }
+    .contact-text,
+    .services-text {
+        left: 30px;
+        width: 350px;
+    }
+    .service-more-link {
+        right: 30px;
+    }
+    .progress-section .circle-progress:after {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .hs-item {
+        min-height: 750px;
+    }
+    .single-portfolio {
+        height: 400px;
+    }
+    .portfolio-info {
+        width: calc(100% - 40px);
+        height: calc(100% - 40px);
+        left: 20px;
+        top: 20px;
+        padding-top: 165px;
+    }
+}
+
+/* Medium screen : 992px. */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .contact-text,
+    .services-text {
+        width: 100%;
+        position: relative;
+        margin-bottom: 50px;
+        left: 0;
+    }
+    .single-portfolio {
+        width: 50%;
+    }
+    .single-portfolio.sm-wide {
+        width: 50%;
+    }
+    .single-portfolio.sm-wide.md-w-100 {
+        width: 100%;
+    }
+    .single-portfolio .md-w-100 {
+        width: 100%;
+    }
+    .service-more-link {
+        right: 0;
+        position: relative;
+        text-align: center;
+    }
+    .worknav {
+        text-align: center;
+    }
+    .worknav .wn-thumb,
+    .worknav .wn-info {
+        display: block;
+    }
+    .worknav .wn-thumb {
+        margin: 0 auto 30px;
+    }
+    .worknav.wn-prev .wn-info,
+    .worknav.wn-next .wn-info {
+        top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+    .worknav.wn-next .wn-thumb {
+        float: none;
+    }
+}
+
+/* Tablet :768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .site-logo {
+        padding-top: 0;
+    }
+    .search-top {
+        padding: 8px;
+        margin-left: 10px;
+    }
+    .main-menu ul li a {
+        padding: 10px;
+        margin-right: 5px;
+    }
+    .hero-slider .owl-nav {
+        right: 50px;
+    }
+    .hs-item {
+        min-height: 650px;
+    }
+    .hs-item .hs-title {
+        font-size: 100px;
+        margin-bottom: 20px;
+    }
+    .hs-item .hs-des {
+        font-size: 40px;
+    }
+    .contact-text,
+    .services-text {
+        width: 100%;
+        position: relative;
+        margin-bottom: 50px;
+        left: 0;
+    }
+    .single-portfolio {
+        width: 50%;
+    }
+    .single-portfolio.sm-wide {
+        width: 50%;
+    }
+    .single-portfolio.sm-wide.md-w-100 {
+        width: 100%;
+    }
+    .single-portfolio .md-w-100 {
+        width: 100%;
+    }
+    .fact-box .fact-content {
+        margin-bottom: 50px;
+    }
+    .fact-box .fact-content:after {
+        display: none;
+    }
+    .service-more-link {
+        right: 0;
+        position: relative;
+        text-align: center;
+    }
+    .worknav {
+        text-align: center;
+    }
+    .worknav .wn-thumb,
+    .worknav .wn-info {
+        display: block;
+    }
+    .worknav .wn-thumb {
+        margin: 0 auto 30px;
+    }
+    .worknav.wn-prev .wn-info,
+    .worknav.wn-next .wn-info {
+        top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+    .worknav.wn-next .wn-thumb {
+        float: none;
+    }
+    .blog-thumb {
+        height: 550px;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (max-width: 767px) {
+    .search-top {
+        display: none;
+    }
+    .nav-switch {
+        position: absolute;
+        right: 20px;
+        font-size: 30px;
+        color: #fff;
+        top: 38px;
+        display: block;
+    }
+    .main-menu {
+        display: none;
+        float: none;
+        position: absolute;
+        width: 100%;
+        background: #222;
+        left: 0;
+        top: 100%;
+    }
+    .main-menu ul li {
+        display: block;
+    }
+    .main-menu ul li a {
+        display: block;
+        padding: 15px;
+        margin-right: 0;
+        border-bottom: 1px solid #292929;
+    }
+    .main-menu ul li a:after {
+        left: 35px;
+    }
+    .hero-slider .owl-nav {
+        right: 50px;
+    }
+    .hs-item {
+        min-height: 470px;
+    }
+    .hs-item .hs-title {
+        font-size: 80px;
+        margin-bottom: 20px;
+    }
+    .hs-item .hs-des {
+        font-size: 30px;
+    }
+    .sp-pad {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .sp-title {
+        font-size: 26px;
+    }
+    .contact-text,
+    .services-text {
+        width: 100%;
+        position: relative;
+        margin-bottom: 50px;
+        left: 0;
+    }
+    .single-portfolio {
+        width: 100%;
+    }
+    .single-portfolio.sm-wide {
+        width: 100%;
+    }
+    .single-portfolio.sm-wide.md-w-100 {
+        width: 100%;
+    }
+    .single-portfolio .md-w-100 {
+        width: 100%;
+    }
+    .fact-box .fact-content {
+        margin-bottom: 50px;
+    }
+    .fact-box .fact-content:after {
+        display: none;
+    }
+    .service-more-link {
+        right: 0;
+        position: relative;
+        text-align: center;
+    }
+    .progress-section {
+        padding: 0 15px 100px;
+    }
+    .worknav {
+        text-align: center;
+    }
+    .worknav .wn-thumb,
+    .worknav .wn-info {
+        display: block;
+    }
+    .worknav .wn-thumb h3,
+    .worknav .wn-info h3 {
+        font-size: 20px;
+    }
+    .worknav .wn-info h3 {
+        font-size: 20px;
+    }
+    .worknav .wn-thumb {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto 30px;
+    }
+    .worknav.wn-prev .wn-info,
+    .worknav.wn-next .wn-info {
+        top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+    .worknav.wn-next .wn-thumb {
+        float: none;
+    }
+    .work-slider .ws-item {
+        height: 400px;
+    }
+    .blog-thumb {
+        height: 400px;
+    }
+}
+
+/* small Mobile :320px. */
+@media only screen and (max-width: 479px) {
+    .hero-slider .owl-nav {
+        right: 20px;
+    }
+    .hs-item .hs-title {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .hs-item .hs-des {
+        font-size: 18px;
+    }
+    .sp-pad {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .worknav .wn-thumb {
+        width: 70px;
+        height: 70px;
+    }
+    .worknav .wn-info h3 {
+        font-size: 16px;
+    }
+    .work-info-list li {
+        width: 100%;
+    }
+    .footer-section h2 {
+        font-size: 33px;
+    }
+}
