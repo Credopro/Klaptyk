@@ -1,0 +1,6 @@
+body {
+    background-color:var(--main-ivory-color);
+    min-height: 100vh;
+    font: normal 16px sans-serif;
+    padding: 40px 0;
+}
